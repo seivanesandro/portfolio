@@ -6,7 +6,7 @@ export const colorsPrimary = {
     secondary: '#434343',
     third: '#FFFFFF',
     four: '#C3EBF9',
-    five: '#FFDAF7',
+    five: '#FFDAF7'
 };
 
 //COLORS SECUNDARY
