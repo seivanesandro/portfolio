@@ -3,7 +3,7 @@ import React from 'react';
 
 const SectionProjects = props => {
     return (
-        <div className='section-projects'>
+        <div className="section-projects">
             <h6 id="projects">SectionProjects</h6>
         </div>
     );

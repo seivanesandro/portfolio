@@ -4,7 +4,7 @@ import React from 'react';
 
 const SectionAbout = props => {
     return (
-        <div className='section-about'>
+        <div className="section-about">
             <h6 id="about">About Me</h6>
         </div>
     );

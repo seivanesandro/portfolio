@@ -3,7 +3,7 @@ import React from 'react';
 
 const SectionProfile = props => {
     return (
-        <div className='section-profile'>
+        <div className="section-profile">
             <h6 id="profile">SectionProfile</h6>
         </div>
     );
