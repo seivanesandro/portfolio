@@ -10,6 +10,8 @@ import SectionCarousel from '../carousels/SectionCarousel';
 
 import styled from 'styled-components';
 
+
+
 const ContainerHome = styled.div`
     display: flex;
     flex-direction: column;

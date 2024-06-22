@@ -46,6 +46,7 @@ const ImgStyle = styled.img`
 const TitleStyle = styled.h5`
     font-size: 2.5rem;
     text-align: left;
+    animation: ${Show} 3s linear;
     &:hover {
         color: #fff;
         background: #333;
@@ -70,6 +71,7 @@ const TitleStyle = styled.h5`
 const ParagraphStyle = styled.p`
     font-size: 1.5rem;
     text-align: left;
+    animation: ${Show} 3.1s linear;
     &:hover {
         color: #fff;
         background: #333;
