@@ -95,7 +95,7 @@ const NavBar = props => {
                                         Experience
                                     </Nav.Link>
                                     <Nav.Link
-                                        href="#action3"
+                                        href="#action4"
                                         className="d-flex flex-row align-items-sm-start justify-content-start px-3"
                                         title="EDUCATION"
                                     >
@@ -109,7 +109,7 @@ const NavBar = props => {
                                         Education
                                     </Nav.Link>
                                     <Nav.Link
-                                        href="#action3"
+                                        href="#action5"
                                         className="d-flex flex-row align-items-sm-start justify-content-start px-3"
                                         title="PROJECTS"
                                     >
