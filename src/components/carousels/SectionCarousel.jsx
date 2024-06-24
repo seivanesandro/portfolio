@@ -1,13 +1,15 @@
-import React from 'react'
-import Carousel from './Carousel'
+import React from 'react';
+import Carousel from './Carousel';
 //import PropTypes from 'prop-types'
 
 const SectionCarousel = props => {
-  return (
-    <div><Carousel /></div>
-  )
-}
+    return (
+        <div id="top">
+            <Carousel />
+        </div>
+    );
+};
 
-SectionCarousel.propTypes = {}
+SectionCarousel.propTypes = {};
 
-export default SectionCarousel
+export default SectionCarousel;

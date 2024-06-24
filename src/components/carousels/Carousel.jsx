@@ -4,7 +4,9 @@ import doc from '../../docs/CV_Sandro_Seivane_PT_2024.pdf';
 
 import Carousel from 'react-bootstrap/Carousel';
 
-import styled, { keyframes } from 'styled-components';
+import styled, {
+    keyframes
+} from 'styled-components';
 import { devices } from '../../utils/constantes';
 
 const Show = keyframes`

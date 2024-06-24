@@ -1,16 +1,14 @@
 import React from 'react';
 //import PropTypes from 'prop-types'
-// import SectionAbout from '../about/SectionAbout';
-// import SectionSkills from '../skills/SectionSkills';
-// import SectionExperience from '../experience/SectionExperience';
-// import SectionEducation from '../education/SectionEducation';
-// import SectionProjects from '../projects/SectionProjects';
-// import SectionProfile from '../profile/SectionProfile';
-import SectionCarousel from '../carousels/SectionCarousel';
+ import SectionAbout from '../about/SectionAbout';
+ import SectionSkills from '../skills/SectionSkills';
+ import SectionExperience from '../experience/SectionExperience';
+ import SectionEducation from '../education/SectionEducation';
+ import SectionProjects from '../projects/SectionProjects';
+ import SectionProfile from '../profile/SectionProfile';
+ import SectionCarousel from '../carousels/SectionCarousel';
 
 import styled from 'styled-components';
-
-
 
 const ContainerHome = styled.div`
     display: flex;
@@ -33,13 +31,16 @@ const Home = props => {
         <ContainerHome className="border boder-primary">
             <SectionCarousel />
             <ContainerHeader className="header-container">
-                {/* <SectionProfile />
-                <SectionAbout /> */}
+                <SectionProfile />
+                <SectionAbout />
+                {/*
+                 */}
             </ContainerHeader>
-            {/*  <SectionSkills />
+             <SectionSkills />
             <SectionExperience />
+             
             <SectionEducation />
-            <SectionProjects /> */}
+            <SectionProjects />
         </ContainerHome>
     );
 };

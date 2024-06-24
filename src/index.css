@@ -12,3 +12,28 @@ code {
     font-family: source-code-pro, Menlo, Monaco,
         Consolas, 'Courier New', monospace;
 }
+
+/*menu*/
+
+.HasLink {
+    text-decoration: none !important;
+    color: #c1c1c1 !important;
+}
+
+.HasLink:link {
+    text-decoration: none !important;
+    color: #c1c1c1 !important;
+}
+.HasLink:visited {
+    text-decoration: none !important;
+    color: #c1c1c1 !important;
+}
+.HasLink:hover {
+    color: #cce5ff !important;
+    transition: 0.5s !important;
+}
+.HasLink:active {
+    text-decoration: none;
+    color: #cce5ff !important;
+    transition: ease-out 0.5s !important;
+}

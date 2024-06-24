@@ -3,10 +3,11 @@ import React from 'react';
 
 const SectionEducation = props => {
     return (
-        <div className="section-education">
-            <h6 id="education">
-                SectionEducation
-            </h6>
+        <div
+            id="section-education"
+            className="section-education"
+        >
+            <h6>SectionEducation</h6>
         </div>
     );
 };

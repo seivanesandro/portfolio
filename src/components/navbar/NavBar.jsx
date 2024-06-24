@@ -10,6 +10,7 @@ import { GoCodescan } from 'react-icons/go';
 import { MdOutlineMapsHomeWork } from 'react-icons/md';
 import { IoSchoolOutline } from 'react-icons/io5';
 import { GrProjects } from 'react-icons/gr';
+import { HashLink } from 'react-router-hash-link';
 
 const NavBar = props => {
     return (
@@ -23,9 +24,22 @@ const NavBar = props => {
                     data-bs-theme="dark"
                 >
                     <Container fluid>
-                        <Navbar.Brand href="/">
-                            Resume Sandro Seivane
-                        </Navbar.Brand>
+                        <HashLink
+                            smooth="true"
+                            to="/home#top"
+                            style={{
+                                textDecoration:
+                                    'none'
+                            }}
+                            activestyle={{
+                                fontWeight: 'bold'
+                            }}
+                        >
+                            <Navbar.Brand>
+                                Resume Sandro
+                                Seivane
+                            </Navbar.Brand>
+                        </HashLink>
                         <Navbar.Toggle
                             aria-controls={`offcanvasNavbar-expand-${expand}`}
                             style={{
@@ -52,10 +66,15 @@ const NavBar = props => {
                             </Offcanvas.Header>
                             <Offcanvas.Body>
                                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                                    <Nav.Link
-                                        href="#action1"
-                                        className="d-flex flex-row align-items-sm-start justify-content-start px-3"
+                                    <HashLink
+                                        smooth="true"
+                                        to="/home#section-about"
+                                        className="HasLink active d-flex flex-row align-items-md-center justify-content-start px-4 py-2"
                                         title="ABOUT Me"
+                                        activestyle={{
+                                            fontWeight:
+                                                'bold'
+                                        }}
                                     >
                                         <MdPerson
                                             size="21"
@@ -63,13 +82,17 @@ const NavBar = props => {
                                                 marginRight:
                                                     '0.3rem'
                                             }}
-                                        />{' '}
+                                        />
                                         About
-                                    </Nav.Link>
-                                    <Nav.Link
-                                        href="#action2"
-                                        className="d-flex flex-row align-items-sm-start justify-content-start px-3"
-                                        title="SKILLS"
+                                    </HashLink>
+                                    <HashLink
+                                        smooth="true"
+                                        to="/home#sectionprojects"
+                                        className="HasLink d-flex flex-row align-items-md-center justify-content-start px-4 py-2"
+                                        activestyle={{
+                                            fontWeight:
+                                                'bold'
+                                        }}
                                     >
                                         <GoCodescan
                                             size="20"
@@ -79,11 +102,16 @@ const NavBar = props => {
                                             }}
                                         />
                                         Skills
-                                    </Nav.Link>
-                                    <Nav.Link
-                                        href="#action3"
-                                        className="d-flex flex-row align-items-sm-start justify-content-start px-3"
+                                    </HashLink>
+                                    <HashLink
+                                        smooth="true"
+                                        to="/home#section-experience"
+                                        className="HasLink d-flex flex-row align-items-md-center justify-content-start px-4 py-2"
                                         title="EXPERIENCE"
+                                        activestyle={{
+                                            fontWeight:
+                                                'bold'
+                                        }}
                                     >
                                         <MdOutlineMapsHomeWork
                                             size="20"
@@ -93,11 +121,16 @@ const NavBar = props => {
                                             }}
                                         />
                                         Experience
-                                    </Nav.Link>
-                                    <Nav.Link
-                                        href="#action4"
-                                        className="d-flex flex-row align-items-sm-start justify-content-start px-3"
+                                    </HashLink>
+                                    <HashLink
+                                        smooth="true"
+                                        to="/home#section-education"
+                                        className="HasLink d-flex flex-row align-items-md-center justify-content-start px-4 py-2"
                                         title="EDUCATION"
+                                        activestyle={{
+                                            fontWeight:
+                                                'bold'
+                                        }}
                                     >
                                         <IoSchoolOutline
                                             size="20"
@@ -107,11 +140,16 @@ const NavBar = props => {
                                             }}
                                         />
                                         Education
-                                    </Nav.Link>
-                                    <Nav.Link
-                                        href="#action5"
-                                        className="d-flex flex-row align-items-sm-start justify-content-start px-3"
+                                    </HashLink>
+                                    <HashLink
+                                        smooth="true"
+                                        to="/home#section-projects"
+                                        className="HasLink d-flex flex-row align-items-md-center justify-content-start px-4 py-2"
                                         title="PROJECTS"
+                                        activestyle={{
+                                            fontWeight:
+                                                'bold'
+                                        }}
                                     >
                                         <GrProjects
                                             size="18"
@@ -121,7 +159,7 @@ const NavBar = props => {
                                             }}
                                         />
                                         Projects
-                                    </Nav.Link>
+                                    </HashLink>
                                 </Nav>
                             </Offcanvas.Body>
                         </Navbar.Offcanvas>
