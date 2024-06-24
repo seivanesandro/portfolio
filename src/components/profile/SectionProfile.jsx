@@ -1,6 +1,6 @@
 import React from 'react';
 //import PropTypes from 'prop-types'
-import portrait from '../../images/portrait.jpg'
+//import portrait from '../../images/portrait.jpg'
 import Profile from './Profile';
 
 const SectionProfile = props => {
