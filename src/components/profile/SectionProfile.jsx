@@ -12,13 +12,17 @@ import { devices } from '../../utils/constantes';
 const Show = keyframes`
     0%{
         opacity:0;
+        position: relative;
+        left: -10px;
     }
     50%{
+        left: 0;
         opacity:0.5;
+        animation:  1ms ease-in-out;
     }
-
     100%{
         opacity:1;
+        animation: 1ms ease-in-out;
     }
 `;
 
@@ -27,7 +31,7 @@ const ContainerSectionProfile = styled.div`
     padding: 10px;
     border: 1px solid blue;
 
-    animation: ${Show} 1.3s linear;
+    animation: ${Show} 3s ease-in;
     @media only screen and (${devices.portatil}) {
         margin: 3px;
     }
