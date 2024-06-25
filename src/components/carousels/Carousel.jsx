@@ -106,7 +106,13 @@ function DarkVariantExample() {
                     alt="First slide"
                     className="d-block"
                 />
-                <Carousel.Caption>
+                <Carousel.Caption
+                    style={{
+                        display: 'flex',
+                        flexDirection: 'column',
+                        alignItems: 'start'
+                    }}
+                >
                     <TitleStyle>
                         Olá, eu sou o Sandro,
                     </TitleStyle>
@@ -134,7 +140,13 @@ function DarkVariantExample() {
                     alt="Second slide"
                     className="d-block"
                 />
-                <Carousel.Caption>
+                <Carousel.Caption
+                    style={{
+                        display: 'flex',
+                        flexDirection: 'column',
+                        alignItems: 'start'
+                    }}
+                >
                     <TitleStyle>
                         Eu sou um React Developer,
                     </TitleStyle>

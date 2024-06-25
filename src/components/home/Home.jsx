@@ -24,7 +24,7 @@ const ContainerHeader = styled.div`
     flex-direction: row;
     justify-content: center;
     align-items: stretch;
-    gap: 3rem;
+    gap: 8rem;
     padding: 4.8rem;
 
     border: 1px solid blue;
@@ -36,26 +36,31 @@ const ContainerHeader = styled.div`
         flex-direction: column;
         padding: 0;
         align-items: center;
+        gap: 3rem;
     }
     @media only screen and (${devices.iphone14}) {
         flex-direction: column;
         padding: 0;
         align-items: center;
+        gap: 3rem;
     }
     @media only screen and (${devices.mobileG}) {
         flex-direction: column;
         padding: 0;
         align-items: center;
+        gap: 3rem;
     }
     @media only screen and (${devices.mobileM}) {
         flex-direction: column;
         padding: 0;
         align-items: center;
+        gap: 3rem;
     }
     @media only screen and (${devices.mobileP}) {
         flex-direction: column;
         padding: 0;
         align-items: center;
+        gap: 3rem;
     }
 `;
 
