@@ -1,5 +1,6 @@
 let dataProfile = [
     {
+        id: 1,
         name: 'sandro Miguel Seivane',
         birthDate: '25/04/1983',
         job: 'React Front-End Developer',
@@ -8,7 +9,7 @@ let dataProfile = [
         address: 'Cascais',
         email: 'seivanesandro@gmail.com',
         phone: '925848588',
-        firstlanguage: 'Portugues',
+        firstLanguage: 'Portugues',
         secondLanguage: 'Ingles',
         linkGit:
             'https://github.com/seivanesandro',

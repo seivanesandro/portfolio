@@ -1,14 +1,15 @@
 import React from 'react';
 //import PropTypes from 'prop-types'
- import SectionAbout from '../about/SectionAbout';
- import SectionSkills from '../skills/SectionSkills';
- import SectionExperience from '../experience/SectionExperience';
- import SectionEducation from '../education/SectionEducation';
- import SectionProjects from '../projects/SectionProjects';
- import SectionProfile from '../profile/SectionProfile';
- import SectionCarousel from '../carousels/SectionCarousel';
+import SectionAbout from '../about/SectionAbout';
+import SectionSkills from '../skills/SectionSkills';
+import SectionExperience from '../experience/SectionExperience';
+import SectionEducation from '../education/SectionEducation';
+import SectionProjects from '../projects/SectionProjects';
+import SectionProfile from '../profile/SectionProfile';
+import SectionCarousel from '../carousels/SectionCarousel';
 
 import styled from 'styled-components';
+import { devices } from '../../utils/constantes';
 
 const ContainerHome = styled.div`
     display: flex;
@@ -22,8 +23,40 @@ const ContainerHeader = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     gap: 3rem;
+    padding: 4.8rem;
+
+    border: 1px solid blue;
+
+    @media only screen and (${devices.portatil}) {
+        padding: 0;
+    }
+    @media only screen and (${devices.tablet}) {
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+    }
+    @media only screen and (${devices.iphone14}) {
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+    }
+    @media only screen and (${devices.mobileG}) {
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+    }
+    @media only screen and (${devices.mobileM}) {
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+    }
+    @media only screen and (${devices.mobileP}) {
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+    }
 `;
 
 const Home = props => {
@@ -36,9 +69,9 @@ const Home = props => {
                 {/*
                  */}
             </ContainerHeader>
-             <SectionSkills />
+            <SectionSkills />
             <SectionExperience />
-             
+
             <SectionEducation />
             <SectionProjects />
         </ContainerHome>

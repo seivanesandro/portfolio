@@ -23,9 +23,10 @@ const Show = keyframes`
 `;
 
 const ImgStyle = styled.img`
+    filter: grayscale(200%);
     animation: ${Show} 2.5s linear;
     &:hover {
-        filter: grayscale(200%);
+        filter: none;
     }
 
     @media only screen and (${devices.tablet}) {

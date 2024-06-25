@@ -37,3 +37,22 @@ code {
     color: #cce5ff !important;
     transition: ease-out 0.5s !important;
 }
+
+/*links profile*/
+
+.hoverLink,
+.git,
+.gmail {
+    color: #5e5757 !important;
+    cursor: pointer;
+}
+.hoverLink:hover {
+    color: #0066cc !important;
+}
+
+.git:hover {
+    color: rgb(0, 0, 0) !important;
+}
+.gmail:hover {
+    color: rgb(246, 12, 12) !important;
+}
