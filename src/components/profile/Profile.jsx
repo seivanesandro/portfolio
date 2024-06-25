@@ -28,7 +28,7 @@ const Show = keyframes`
 const CardImg = styled.img`
     width: 100%;
     filter: grayscale(200%);
-    animation: ${Show} 1.5s linear;
+    animation: ${Show} 1ms linear;
     &:hover {
         filter: none;
     }

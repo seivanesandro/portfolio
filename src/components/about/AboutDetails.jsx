@@ -26,12 +26,12 @@ const Title = styled.h5`
 
 const ParagraphText = styled.p`
     width: 40rem;
-    padding: 0.8rem;
+    padding: 1.8rem;
     animation: ${Show} 0.5s linear;
 
     @media only screen and (${devices.portatil}) {
         width: 31rem;
-        padding: 1rem;
+        padding: 0.8rem;
     }
     @media only screen and (${devices.iphone14}) {
         text-align: start;
@@ -48,6 +48,7 @@ const ParagraphText = styled.p`
     @media only screen and (${devices.mobileP}) {
         text-align: start;
         width: 17rem;
+        padding: 0;
     }
 `;
 

@@ -31,7 +31,7 @@ const ContainerSectionProfile = styled.div`
     padding: 10px;
     border: 1px solid blue;
 
-    animation: ${Show} 3s ease-in;
+    animation: ${Show} 2s ease-in;
     @media only screen and (${devices.portatil}) {
         margin: 3px;
     }
@@ -48,7 +48,8 @@ const ContainerSectionProfile = styled.div`
         margin: 3px;
     }
     @media only screen and (${devices.mobileP}) {
-        margin: auto;
+        margin: 0;
+        padding: 0px;
     }
 `;
 

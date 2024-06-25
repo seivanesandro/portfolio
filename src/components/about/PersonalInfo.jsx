@@ -29,7 +29,7 @@ const TitlesStyles = styled.label`
     display: block;
     font-weight: 700;
     width: 37rem;
-    padding: 0.9rem;
+    padding: 0.6rem;
     animation: ${Show} 0.5s linear;
     @media only screen and (${devices.iphone14}) {
         text-align: start;
@@ -51,6 +51,7 @@ const TitlesStyles = styled.label`
 
 const AboutDetails = ({
     title,
+    name,
     address,
     email,
     phone,
@@ -61,6 +62,16 @@ const AboutDetails = ({
         <>
             <TitleStyle>{title}</TitleStyle>
             <Card.Text>
+                <TitlesStyles>
+                    Nome:{' '}
+                    <span
+                        style={{
+                            fontWeight: '400'
+                        }}
+                    >
+                        {name}
+                    </span>
+                </TitlesStyles>
                 <TitlesStyles>
                     Morada:{' '}
                     <span

@@ -16,7 +16,6 @@ const Show = keyframes`
     50%{
         opacity:0.5;
     }
-
     100%{
         opacity:1;
     }
@@ -26,13 +25,14 @@ const TitleBeginning = styled.h5`
     width: 18rem;
     text-align: center;
     margin: 6.3rem auto;
-    animation: ${Show} 1.5s linear;
+    animation: ${Show} 1ms linear;
     @media only screen and (${devices.mobileP}) {
         width: 17rem;
     }
 `;
 
 const About = ({
+    name,
     address,
     email,
     phone,
@@ -70,7 +70,7 @@ const About = ({
                                     handlePersonalInfo
                                 }
                             >
-                                Personal Info
+                                Information
                             </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
@@ -100,13 +100,14 @@ const About = ({
                         )}
                     {aboutMe && (
                         <AboutDetails
-                            title="ABOUT ME"
+                            title="QUEM SOU EU?"
                             text={textAboutme}
                         />
                     )}
                     {personalInfo && (
                         <PersonalInfo
-                            title="PERSONAL INFO"
+                            title="INFORMAÇÃO PESSOAL"
+                            name={name}
                             address={address}
                             email={email}
                             phone={phone}
