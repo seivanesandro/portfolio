@@ -13,7 +13,7 @@ const Show = keyframes`
     0%{
         opacity:0;
         position: relative;
-        left: -10px;
+        left: -15px;
     }
     50%{
         left: 0;
