@@ -58,7 +58,7 @@ const SectionProfile = props => {
             id="section-profile"
             className="section-profile"
         >
-         {dataProfile.map(data => (
+            {dataProfile.map(data => (
                 <Profile
                     key={data.id}
                     img={portraitColor}

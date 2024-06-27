@@ -1,6 +1,8 @@
 import React from 'react';
 //import PropTypes from 'prop-types'
-import styled, { keyframes } from 'styled-components';
+import styled, {
+    keyframes
+} from 'styled-components';
 import Skills from './Skills';
 import { devices } from '../../utils/constantes';
 
@@ -64,6 +66,8 @@ const ContainerSkills = styled.div`
     padding: 10px;
 
     animation: ${ShowAnimation} 3.1s linear;
+
+    border: 1px solid blue;
     @media only screen and (${devices.portatil}) {
         margin: 3px;
     }
@@ -85,10 +89,16 @@ const ContainerSkills = styled.div`
     }
 `;
 const ContainerFirstColumn = styled.div`
-    animation: ${AnimationFirstColumn} 3.1s ease-in;
+    animation: ${AnimationFirstColumn} 3.1s
+        ease-in;
+
+    border: 1px solid blue;
 `;
 const ContainerSecondColumn = styled.div`
-animation: ${AnimationSecondColumn} 3.1s ease-in;
+    animation: ${AnimationSecondColumn} 3.1s
+        ease-in;
+
+    border: 1px solid blue;
 `;
 
 const SectionSkills = () => {

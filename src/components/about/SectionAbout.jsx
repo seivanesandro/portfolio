@@ -53,10 +53,7 @@ const ContainerSectionAbout = styled.div`
 
 const SectionAbout = props => {
     return (
-        <ContainerSectionAbout
-           
-            className="section-about"
-        >
+        <ContainerSectionAbout className="section-about">
             {dataProfile.map(data => (
                 <About
                     key={data.id}

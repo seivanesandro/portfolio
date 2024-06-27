@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import ProgressBar from 'react-bootstrap/ProgressBar';
 
 const ProgressBarSkill = ({
@@ -17,7 +17,7 @@ const ProgressBarSkill = ({
                 height: '0.9rem',
                 fontWeight: '600',
                 letterSpacing: '1.5px',
-                textShadow: '0 0 0.1rem black',
+                textShadow: '0 0 0.1rem black'
             }}
         />
     );
