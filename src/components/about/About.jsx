@@ -70,7 +70,7 @@ const About = ({
                                     handlePersonalInfo
                                 }
                             >
-                                Information
+                                Informação
                             </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
@@ -80,7 +80,7 @@ const About = ({
                                     handleAbout
                                 }
                             >
-                                About me
+                                Sobre mim
                             </Nav.Link>
                         </Nav.Item>
                     </Nav>

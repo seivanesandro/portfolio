@@ -16,7 +16,7 @@ const ContainerHome = styled.div`
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    gap: 3rem;
+    gap: 8rem;
     margin: 4rem auto;
 `;
 const ContainerHeader = styled.div`
@@ -68,7 +68,10 @@ const Home = props => {
     return (
         <ContainerHome className="border boder-primary">
             <SectionCarousel />
-            <ContainerHeader className="header-container">
+            <ContainerHeader
+                className="header-container"
+                id="section-about"
+            >
                 <SectionProfile />
                 <SectionAbout />
                 {/*

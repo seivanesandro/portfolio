@@ -29,7 +29,6 @@ const Show = keyframes`
 const ContainerSectionProfile = styled.div`
     margin: 5px;
     padding: 10px;
-    border: 1px solid blue;
 
     animation: ${Show} 2s ease-in;
     @media only screen and (${devices.portatil}) {
@@ -59,9 +58,7 @@ const SectionProfile = props => {
             id="section-profile"
             className="section-profile"
         >
-            <h6>SectionProfile</h6>
-
-            {dataProfile.map(data => (
+         {dataProfile.map(data => (
                 <Profile
                     key={data.id}
                     img={portraitColor}

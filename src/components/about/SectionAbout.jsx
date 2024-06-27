@@ -28,7 +28,6 @@ const Show = keyframes`
 const ContainerSectionAbout = styled.div`
     margin: 5px;
     padding: 10px;
-    border: 1px solid blue;
 
     animation: ${Show} 2s ease-in;
     @media only screen and (${devices.portatil}) {
@@ -55,10 +54,9 @@ const ContainerSectionAbout = styled.div`
 const SectionAbout = props => {
     return (
         <ContainerSectionAbout
-            id="section-about"
+           
             className="section-about"
         >
-            <h6>SectionAbout</h6>
             {dataProfile.map(data => (
                 <About
                     key={data.id}
