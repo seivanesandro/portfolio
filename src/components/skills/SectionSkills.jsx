@@ -62,30 +62,22 @@ const ContainerSkills = styled.div`
     flex-direction: row;
     gap: 1rem;
 
-    margin: 5px;
     padding: 10px;
 
     animation: ${ShowAnimation} 3.1s linear;
 
     border: 1px solid blue;
     @media only screen and (${devices.portatil}) {
-        margin: 3px;
     }
     @media only screen and (${devices.tablet}) {
-        margin: 3px;
     }
     @media only screen and (${devices.iphone14}) {
-        margin: 3px;
     }
     @media only screen and (${devices.mobileG}) {
-        margin: 3px;
     }
     @media only screen and (${devices.mobileM}) {
-        margin: 3px;
     }
     @media only screen and (${devices.mobileP}) {
-        margin: 0 !important;
-        padding: 0px;
     }
 `;
 const ContainerFirstColumn = styled.div`
@@ -104,7 +96,7 @@ const ContainerSecondColumn = styled.div`
 const SectionSkills = () => {
     return (
         <div className="section-skills">
-            <h6 id="skills">SectionSkills</h6>
+            <h6>SectionSkills</h6>
             <ContainerSkills className="skills">
                 <ContainerFirstColumn className="container-first-column">
                     <Skills

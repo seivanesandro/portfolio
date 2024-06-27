@@ -3,10 +3,7 @@ import React from 'react';
 
 const SectionProjects = props => {
     return (
-        <div
-            id="section-projects"
-            className="section-projects"
-        >
+        <div className="section-projects">
             <h6>SectionProjects</h6>
             Lorem ipsum dolor sit amet consectetur
             adipisicing elit. Nesciunt minima odio

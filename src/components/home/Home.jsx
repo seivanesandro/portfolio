@@ -66,22 +66,35 @@ const ContainerHeader = styled.div`
 
 const Home = props => {
     return (
-        <ContainerHome className="border boder-primary">
+        <ContainerHome
+            id="top"
+            className="border boder-primary"
+        >
             <SectionCarousel />
+
             <ContainerHeader
+                id="section-header"
                 className="header-container"
-                id="section-about"
             >
                 <SectionProfile />
                 <SectionAbout />
-                {/*
-                 */}
             </ContainerHeader>
-            <SectionSkills />
-            <SectionExperience />
 
-            <SectionEducation />
-            <SectionProjects />
+            <div id="section-skills">
+                <SectionSkills />
+            </div>
+
+            <div id="section-experience">
+                <SectionExperience />
+            </div>
+
+            <div id="section-education">
+                <SectionEducation />
+            </div>
+
+            <div id="section-projects">
+                <SectionProjects />
+            </div>
         </ContainerHome>
     );
 };

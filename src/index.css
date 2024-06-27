@@ -56,3 +56,23 @@ code {
 .gmail:hover {
     color: rgb(246, 12, 12) !important;
 }
+
+/*section-themes-margins*/
+#top {
+    padding: 2rem 0 8rem 0 !important;
+}
+#section-header {
+    padding: 8rem 0 0 0 !important;
+}
+#section-skills {
+    padding: 8rem 0 0 0 !important;
+}
+#section-experience {
+    padding: 8rem 0 0 0 !important;
+}
+#section-education {
+    padding: 8rem 0 0 0 !important;
+}
+#section-projects {
+    padding: 8rem 0 5rem 0 !important;
+}

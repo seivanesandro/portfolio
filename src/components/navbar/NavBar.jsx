@@ -68,7 +68,7 @@ const NavBar = props => {
                                 <Nav className="justify-content-end flex-grow-1 pe-3">
                                     <HashLink
                                         smooth="true"
-                                        to="/home#section-about"
+                                        to="/home#section-header"
                                         className="HasLink active d-flex flex-row align-items-md-center justify-content-start px-4 py-2"
                                         title="ABOUT Me"
                                         activestyle={{
@@ -83,11 +83,11 @@ const NavBar = props => {
                                                     '0.3rem'
                                             }}
                                         />
-                                        About
+                                        Sobre mim
                                     </HashLink>
                                     <HashLink
                                         smooth="true"
-                                        to="/home#sectionprojects"
+                                        to="/home#section-skills"
                                         className="HasLink d-flex flex-row align-items-md-center justify-content-start px-4 py-2"
                                         activestyle={{
                                             fontWeight:
@@ -120,7 +120,7 @@ const NavBar = props => {
                                                     '0.3rem'
                                             }}
                                         />
-                                        Experience
+                                        Experiencia
                                     </HashLink>
                                     <HashLink
                                         smooth="true"
@@ -139,7 +139,7 @@ const NavBar = props => {
                                                     '0.3rem'
                                             }}
                                         />
-                                        Education
+                                        Educação
                                     </HashLink>
                                     <HashLink
                                         smooth="true"
@@ -158,7 +158,7 @@ const NavBar = props => {
                                                     '0.3rem'
                                             }}
                                         />
-                                        Projects
+                                        Projectos
                                     </HashLink>
                                 </Nav>
                             </Offcanvas.Body>

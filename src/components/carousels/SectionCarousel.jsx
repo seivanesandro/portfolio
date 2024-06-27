@@ -4,7 +4,7 @@ import Carousel from './Carousel';
 
 const SectionCarousel = props => {
     return (
-        <div id="top">
+        <div>
             <Carousel />
         </div>
     );
