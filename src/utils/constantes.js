@@ -51,7 +51,7 @@ media css
 
 */
 
-const responsivePoints = {
+export const responsivePoints = {
     mobileP: '320px',
     mobileM: '375px',
     mobileG: '425px',

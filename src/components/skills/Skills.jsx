@@ -6,24 +6,17 @@ import styled, {
 } from 'styled-components';
 
 const Animation = keyframes`
-    0%{
-        opacity:0;
-        position: relative;
-        left: -15px;
+   0%{ 
+        opacity: 0;
     }
-    50%{
-        left: 0;
-        opacity:0.5;
-        animation:  1ms ease-in-out;
-    }
-
-    100%{
-        opacity:1;
-        animation: 1ms ease-in-out;
+    50%{opacity: 0.5}
+    100%{ 
+         opacity: 1;
     }
 `;
 const ContainerProgressBarSkill = styled.div`
-    border: 1px solid blue;
+    animation: ${Animation} 2s linear;
+    margin: 4rem 0 0 0;
 `;
 
 const Skills = ({ skilltech, skillprogress }) => {

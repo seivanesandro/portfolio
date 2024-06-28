@@ -65,7 +65,7 @@ code {
     padding: 8rem 0 0 0 !important;
 }
 #section-skills {
-    padding: 8rem 0 0 0 !important;
+    padding: 6rem 0 0 0 !important;
 }
 #section-experience {
     padding: 8rem 0 0 0 !important;
@@ -75,4 +75,60 @@ code {
 }
 #section-projects {
     padding: 8rem 0 5rem 0 !important;
+}
+
+/*progressBar*/
+.breakpoints {
+    width: 23rem;
+    height: 1rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-shadow: 0 0 0.1rem black;
+}
+@media only screen and (max-width: 2560px) {
+    .breakpoints {
+        width: 23rem;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .breakpoints {
+        width: 23rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .breakpoints {
+        width: 23rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .breakpoints {
+        width: 20rem;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .breakpoints {
+        width: 20rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .breakpoints {
+        width: 20rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .breakpoints {
+        width: 20rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .breakpoints {
+        width: 18rem;
+    }
 }

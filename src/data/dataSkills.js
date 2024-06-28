@@ -2,7 +2,7 @@ let dataSkills = [
     {
         id: 1,
         skill: 'Figma',
-        value: 85
+        value: 90
     },
     {
         id: 2,
@@ -31,28 +31,33 @@ let dataSkills = [
     },
     {
         id: 7,
-        skill: 'Angular',
-        value: 75
+        skill: 'npm',
+        value: 90
     },
     {
         id: 8,
-        skill: 'Python',
-        value: 55
+        skill: 'npde.js',
+        value: 75
     },
     {
         id: 9,
-        skill: 'C#',
+        skill: '.net/c#',
         value: 55
     },
     {
         id: 10,
-        skill: 'SQL',
+        skill: 'MySQL',
         value: 55
     },
     {
         id: 11,
-        skill: 'node.js',
-        value: 85
+        skill: 'Angular',
+        value: 55
+    },
+    {
+        id: 12,
+        skill: 'Python',
+        value: 55
     }
 ];
 
