@@ -36,17 +36,17 @@ let dataSkills = [
     },
     {
         id: 8,
-        skill: 'npde.js',
+        skill: 'Node.js',
         value: 75
     },
     {
         id: 9,
-        skill: '.net/c#',
+        skill: 'c#/.net',
         value: 55
     },
     {
         id: 10,
-        skill: 'MySQL',
+        skill: 'MySQL/Xampp',
         value: 55
     },
     {
