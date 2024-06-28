@@ -56,6 +56,7 @@ const ContainerSkills = styled.div`
     gap: 10rem;
     padding: 10px;
     animation: ${ShowAnimation} 0.5s linear;
+    border: 1px solid blue;//TODO: delete on end
 
     @media only screen and (${devices.fourk}) {
         gap: 10rem;
@@ -95,10 +96,12 @@ const ContainerSkills = styled.div`
 const ContainerFirstColumn = styled.div`
     animation: ${ShowFirstColumnAnimation} 2s
         ease-in;
+    border: 1px solid blue; //TODO: delete on end
 `;
 const ContainerSecondColumn = styled.div`
     animation: ${ShowSecondColumnAnimation} 2s
         ease-in;
+    border: 1px solid blue; //TODO: delete on ends
 `;
 
 const SectionSkills = () => {

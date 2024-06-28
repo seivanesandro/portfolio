@@ -9,7 +9,9 @@ const Animation = keyframes`
    0%{ 
         opacity: 0;
     }
-    50%{opacity: 0.5}
+    50%{
+        opacity: 0.5;
+    }
     100%{ 
          opacity: 1;
     }
@@ -17,6 +19,7 @@ const Animation = keyframes`
 const ContainerProgressBarSkill = styled.div`
     animation: ${Animation} 2s linear;
     margin: 4rem 0 0 0;
+    border: 1px solid blue; //TODO: delete on end
 `;
 
 const Skills = ({ skilltech, skillprogress }) => {
