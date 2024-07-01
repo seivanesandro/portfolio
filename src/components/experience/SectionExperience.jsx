@@ -1,5 +1,6 @@
 import React from 'react';
 //import PropTypes from 'prop-types'
+import TimeLine from './TimeLine';
 
 const SectionExperience = props => {
     return (
@@ -7,6 +8,7 @@ const SectionExperience = props => {
             <h6 id="experience">
                 Section Experience
             </h6>
+            <TimeLine />
         </div>
     );
 };

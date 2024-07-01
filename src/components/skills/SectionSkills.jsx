@@ -56,7 +56,7 @@ const ContainerSkills = styled.div`
     gap: 10rem;
     padding: 10px;
     animation: ${ShowAnimation} 0.5s linear;
-    border: 1px solid blue;//TODO: delete on end
+    border: 1px solid blue; //TODO: delete on end
 
     @media only screen and (${devices.fourk}) {
         gap: 10rem;

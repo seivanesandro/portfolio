@@ -6,6 +6,7 @@ body {
         'Helvetica Neue', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background: #eeeeee;
 }
 
 code {
@@ -58,25 +59,30 @@ code {
 }
 
 /*section-themes-margins*/
+/*section-themes-margins*/
 #top {
     padding: 2rem 0 8rem 0 !important;
 }
+
 #section-header {
     padding: 8rem 0 0 0 !important;
 }
+
 #section-skills {
     padding: 6rem 0 0 0 !important;
 }
+
 #section-experience {
     padding: 6rem 0 0 0 !important;
 }
+
 #section-education {
     padding: 6rem 0 0 0 !important;
 }
+
 #section-projects {
     padding: 6rem 0 5rem 0 !important;
 }
-
 /*progressBar*/
 .breakpoints {
     width: 23rem;

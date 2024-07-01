@@ -31,6 +31,7 @@ const ContainerHeader = styled.div`
 
     @media only screen and (${devices.portatil}) {
         padding: 0;
+        gap: 2rem;
     }
     @media only screen and (${devices.tablet}) {
         flex-direction: column;
