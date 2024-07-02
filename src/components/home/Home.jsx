@@ -11,13 +11,16 @@ import SectionCarousel from '../carousels/SectionCarousel';
 import styled from 'styled-components';
 import { devices } from '../../utils/constantes';
 
+import { Reveal } from 'react-gsap';
+import { FadeInLeft } from './FadeInLeft';
+
 const ContainerHome = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    gap: 8rem;
-    margin: 4rem auto;
+    gap: 2rem;
+    margin: auto;
 `;
 const ContainerHeader = styled.div`
     display: flex;
@@ -65,21 +68,25 @@ const ContainerHeader = styled.div`
     }
 `;
 
+
 const Home = props => {
+
+
     return (
         <ContainerHome
             id="top"
-            className="border boder-primary"
+            className="main border boder-primary"
         >
             <SectionCarousel />
 
-            <ContainerHeader
-                id="section-header"
-                className="header-container"
-            >
-                <SectionProfile />
-                <SectionAbout />
-            </ContainerHeader>
+            <Reveal repeat trigger={<div />}>
+                <FadeInLeft>
+                    <ContainerHeader id="section-header">
+                        <SectionProfile />
+                        <SectionAbout />
+                    </ContainerHeader>
+                </FadeInLeft>
+            </Reveal>
 
             <div id="section-skills">
                 <SectionSkills />
@@ -89,13 +96,21 @@ const Home = props => {
                 <SectionExperience />
             </div>
 
-            <div id="section-education">
-                <SectionEducation />
-            </div>
+            <Reveal repeat trigger={<div />}>
+                <FadeInLeft>
+                    <div id="section-education">
+                        <SectionEducation />
+                    </div>
+                </FadeInLeft>
+            </Reveal>
 
-            <div id="section-projects">
-                <SectionProjects />
-            </div>
+            <Reveal repeat trigger={<div />}>
+                <FadeInLeft>
+                    <div id="section-projects">
+                        <SectionProjects />
+                    </div>
+                </FadeInLeft>
+            </Reveal>
         </ContainerHome>
     );
 };

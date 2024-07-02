@@ -25,6 +25,7 @@ const Show = keyframes`
 const ImgStyle = styled.img`
     filter: grayscale(200%);
     animation: ${Show} 2.5s linear;
+    max-height: 50% !important;
     border: 1px solid blue; //TODO: delete on end
     &:hover {
         filter: none;
