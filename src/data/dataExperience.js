@@ -10,6 +10,14 @@ let dataExperience = [
     },
     {
         id: 2,
+        title: 'Estágio <Code For All_> ',
+        local: 'presencial',
+        description: 'Creation of reusable components using styled-components librarys and React.js (using props, useState, Proptypes, defaultprops, ...), use of best code practices, syntax and organization in React, reusable components on storybooks and creation of stories , Redesign of components interface, and design components on Figma.',
+        date: '2022 (4 meses)',
+        icon: 'school'
+    },
+    {
+        id: 3,
         title: 'Programador de Informatica',
         local: 'mode remote',
         description:
@@ -18,7 +26,7 @@ let dataExperience = [
         icon: 'school'
     },
     {
-        id: 3,
+        id: 4,
         title: 'Full Stack Developer',
         local: 'mode remote',
         description:
@@ -27,7 +35,7 @@ let dataExperience = [
         icon: 'school'
     },
     {
-        id: 4,
+        id: 5,
         title: 'Contisystems ',
         local: 'S.Domingos de Rana',
         description:
@@ -36,7 +44,7 @@ let dataExperience = [
         icon: 'Work'
     },
     {
-        id: 5,
+        id: 6,
         title: 'PT Contact - MEO Altice',
         local: 'Tagus Park',
         description:
@@ -45,7 +53,7 @@ let dataExperience = [
         icon: 'Work'
     },
     {
-        id: 6,
+        id: 7,
         title: 'PT Sistemas de Informação, MEO Altice',
         local: 'Tagus Park',
         description:
@@ -54,7 +62,7 @@ let dataExperience = [
         icon: 'Work'
     },
     {
-        id: 7,
+        id: 8,
         title: 'Escola Superior de Tecnologias de Castelo Branco ',
         local: 'castelo branco',
         description:
@@ -63,7 +71,7 @@ let dataExperience = [
         icon: 'school'
     },
     {
-        id: 8,
+        id: 9,
         title: 'Centro Profissional de Ranholas',
         local: 'Sintra',
         description:
@@ -72,7 +80,7 @@ let dataExperience = [
         icon: 'school'
     },
     {
-        id: 9,
+        id: 10,
         title: ' Centro Profissional da Amadora',
         local: 'amadora',
         description:
