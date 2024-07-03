@@ -6,6 +6,8 @@ import styled, {
 import Skills from './Skills';
 import { devices } from '../../utils/constantes';
 import dataSkills from '../../data/dataSkills';
+import { Reveal } from 'react-gsap';
+import { ShowIn } from '../../utils/ShowIn';
 
 const ShowAnimation = keyframes`
     0%{
@@ -55,7 +57,6 @@ const ContainerSkills = styled.div`
     flex-direction: row;
     gap: 10rem;
     padding: 10px;
-    animation: ${ShowAnimation} 0.5s linear;
     border: 1px solid blue; //TODO: delete on end
 
     @media only screen and (${devices.fourk}) {
@@ -73,34 +74,32 @@ const ContainerSkills = styled.div`
         gap: 3rem;
     }
     @media only screen and (${devices.iphone14}) {
-        gap: 0;
+        gap: 3rem;
         padding: 0;
         flex-direction: column;
     }
     @media only screen and (${devices.mobileG}) {
-        gap: 0;
+        gap: 3rem;
         padding: 0;
         flex-direction: column;
     }
     @media only screen and (${devices.mobileM}) {
-        gap: 0;
+        gap: 3rem;
         padding: 0;
         flex-direction: column;
     }
     @media only screen and (${devices.mobileP}) {
-        gap: 0;
+        gap: 3rem;
         padding: 0;
         flex-direction: column;
     }
 `;
 const ContainerFirstColumn = styled.div`
-    animation: ${ShowFirstColumnAnimation} 2s
-        ease-in;
+    animation: ${ShowFirstColumnAnimation} 2s ease-in;
     border: 1px solid blue; //TODO: delete on end
 `;
 const ContainerSecondColumn = styled.div`
-    animation: ${ShowSecondColumnAnimation} 2s
-        ease-in;
+    animation: ${ShowSecondColumnAnimation} 2s ease-in;
     border: 1px solid blue; //TODO: delete on ends
 `;
 
@@ -114,37 +113,47 @@ const SectionSkills = () => {
         12
     );
     return (
-        <div className="section-skills">
+        <>
             <h6>SectionSkills</h6>
-            <ContainerSkills className="skills">
-                <ContainerFirstColumn className="container-first-column">
-                    {dataFirstColumn.map(data => (
-                        <Skills
-                            key={data.id}
-                            skilltech={data.skill}
-                            skillprogress={
-                                data.value
-                            }
-                        />
-                    ))}
-                </ContainerFirstColumn>
-                <ContainerSecondColumn className="container-first-column">
-                    {dataSecondColumn.map(
-                        data => (
-                            <Skills
-                                key={data.id}
-                                skilltech={
-                                    data.skill
-                                }
-                                skillprogress={
-                                    data.value
-                                }
-                            />
-                        )
-                    )}
-                </ContainerSecondColumn>
-            </ContainerSkills>
-        </div>
+
+                    <ContainerSkills className="skills">
+                        <div className="container-first-column">
+                            {dataFirstColumn.map(
+                                data => (
+                                    <Skills
+                                        key={
+                                            data.id
+                                        }
+                                        skilltech={
+                                            data.skill
+                                        }
+                                        skillprogress={
+                                            data.value
+                                        }
+                                    />
+                                )
+                            )}
+                        </div>
+                        <div className="container-second-column">
+                            {dataSecondColumn.map(
+                                data => (
+                                    <Skills
+                                        key={
+                                            data.id
+                                        }
+                                        skilltech={
+                                            data.skill
+                                        }
+                                        skillprogress={
+                                            data.value
+                                        }
+                                    />
+                                )
+                            )}
+                        </div>
+                    </ContainerSkills>
+
+        </>
     );
 };
 

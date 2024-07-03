@@ -14,6 +14,20 @@ const Show = keyframes`
 
 animation: ${Show} 2.5s linear;
 
+animation keeyframe css
+
+@keyframes slidein {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(100%);
+  }
+}
+
+animation: slidein 2.5s linear;
+
 */
 
 //TODO:Devices Responsive

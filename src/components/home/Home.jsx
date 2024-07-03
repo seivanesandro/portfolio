@@ -12,7 +12,8 @@ import styled from 'styled-components';
 import { devices } from '../../utils/constantes';
 
 import { Reveal } from 'react-gsap';
-import { FadeInLeft } from './FadeInLeft';
+import { FadeInLeft } from '../../utils/FadeInLeft';
+import { FadeInRight } from '../../utils/FadeInRight';
 //import { FadeIn} from './FadeIn'
 
 const ContainerHome = styled.div`
@@ -69,10 +70,7 @@ const ContainerHeader = styled.div`
     }
 `;
 
-
 const Home = props => {
-
-
     return (
         <ContainerHome
             id="top"
@@ -88,13 +86,13 @@ const Home = props => {
                     </ContainerHeader>
                 </FadeInLeft>
             </Reveal>
-            
+
             <Reveal repeat trigger={<div />}>
-                <FadeInLeft>
+                <FadeInRight>
                     <div id="section-skills">
                         <SectionSkills />
                     </div>
-                </FadeInLeft>
+                </FadeInRight>
             </Reveal>
 
             <div id="section-experience">
@@ -110,11 +108,11 @@ const Home = props => {
             </Reveal>
 
             <Reveal repeat trigger={<div />}>
-                <FadeInLeft>
+                <FadeInRight>
                     <div id="section-projects">
                         <SectionProjects />
                     </div>
-                </FadeInLeft>
+                </FadeInRight>
             </Reveal>
         </ContainerHome>
     );
