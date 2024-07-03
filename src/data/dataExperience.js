@@ -12,7 +12,8 @@ let dataExperience = [
         id: 2,
         title: 'Estágio <Code For All_> ',
         local: 'presencial',
-        description: 'Creation of reusable components using styled-components librarys and React.js (using props, useState, Proptypes, defaultprops, ...), use of best code practices, syntax and organization in React, reusable components on storybooks and creation of stories , Redesign of components interface, and design components on Figma.',
+        description:
+            'Creation of reusable components using styled-components librarys and React.js (using props, useState, Proptypes, defaultprops, ...), use of best code practices, syntax and organization in React, reusable components on storybooks and creation of stories , Redesign of components interface, and design components on Figma.',
         date: '2022 (4 meses)',
         icon: 'school'
     },

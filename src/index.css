@@ -84,7 +84,7 @@ code {
 
 #section-projects {
     /*FIXME: test padding*/
-    padding: 7rem 0  0 0 !important;
+    padding: 7rem 0 0 0 !important;
     margin: 5rem auto;
 }
 /*progressBar*/
@@ -92,16 +92,16 @@ code {
 @keyframes fadeinleft {
     0% {
         opacity: 0;
-            position: relative;
-            left: -5rem;
-        }
-        50% {
-            left: 0rem;
-        }
-        100% {
-            opacity: 1;
-            left: 0;
-        }
+        position: relative;
+        left: -5rem;
+    }
+    50% {
+        left: 0rem;
+    }
+    100% {
+        opacity: 1;
+        left: 0;
+    }
 }
 
 @keyframes fadeinright {
@@ -120,9 +120,8 @@ code {
         right: 0;
     }
 }
- 
 
-.container-first-column{
+.container-first-column {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -134,7 +133,7 @@ code {
     flex-direction: column;
     align-items: center;
     gap: 3rem;
-    animation: fadeinright 1s ease-in; 
+    animation: fadeinright 1s ease-in;
 }
 
 .breakpoints {
@@ -145,7 +144,7 @@ code {
     background: lightgray;
     box-shadow: 0 0 0.1rem #333;
 }
-.breakpoints:hover{
+.breakpoints:hover {
     box-shadow: 0 0 0.5rem #0066cc;
 }
 @media only screen and (max-width: 2560px) {
