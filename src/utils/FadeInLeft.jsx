@@ -13,6 +13,7 @@ export const FadeInLeft = ({ children }) => (
         }}
         // ease={'back.out(0.3)'}
         // duration={duration}.1)
+        duration={4}
         stagger={0.2}
         ease="elastic.out(0.2, 0)"
     >

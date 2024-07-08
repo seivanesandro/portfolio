@@ -13,7 +13,7 @@ import { devices } from '../../utils/constantes';
 
 import { Reveal } from 'react-gsap';
 import { FadeInLeft } from '../../utils/FadeInLeft';
-import { FadeInRight } from '../../utils/FadeInRight';
+//import { FadeInRight } from '../../utils/FadeInRight';
 //import { FadeIn} from './FadeIn'
 
 const ContainerHome = styled.div`
@@ -22,7 +22,7 @@ const ContainerHome = styled.div`
     justify-content: flex-start;
     align-items: center;
     gap: 2rem;
-    margin: auto;
+    margin: 0.2rem auto;
 `;
 const ContainerHeader = styled.div`
     display: flex;
@@ -87,18 +87,13 @@ const Home = props => {
                 </FadeInLeft>
             </Reveal>
 
-            <Reveal repeat trigger={<div />}>
-                <FadeInRight>
-                    <div id="section-skills">
-                        <SectionSkills />
-                    </div>
-                </FadeInRight>
-            </Reveal>
+            <div id="section-skills">
+                <SectionSkills />
+            </div>
 
             <div id="section-experience">
                 <SectionExperience />
             </div>
-
             <Reveal repeat trigger={<div />}>
                 <FadeInLeft>
                     <div id="section-education">
@@ -106,14 +101,12 @@ const Home = props => {
                     </div>
                 </FadeInLeft>
             </Reveal>
+            <div id="section-projects">
+                <SectionProjects />
+            </div>
+            
 
-            <Reveal repeat trigger={<div />}>
-                <FadeInRight>
-                    <div id="section-projects">
-                        <SectionProjects />
-                    </div>
-                </FadeInRight>
-            </Reveal>
+            <div style={{ width: '10rem' }}></div>
         </ContainerHome>
     );
 };

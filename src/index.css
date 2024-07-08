@@ -6,7 +6,102 @@ body {
         'Helvetica Neue', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    scrollbar-width: none !important;
+    -ms-overflow-style: none !important;
+    overflow-x: scroll !important;
     background: #eeeeee;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+@media only screen and (max-width: 2560px) {
+    body {
+            scrollbar-width: none !important;
+                -ms-overflow-style: none !important;
+                overflow-x: scroll !important;
+        }
+                ::-webkit-scrollbar {
+                    display: none;
+                }
+}
+
+@media only screen and (max-width: 1440px) {
+    body {
+            scrollbar-width: none !important;
+                -ms-overflow-style: none !important;
+                overflow-x: scroll !important;
+        }
+                ::-webkit-scrollbar {
+                    display: none;
+                }
+}
+
+@media only screen and (max-width: 1024px) {
+    body {
+            scrollbar-width: none !important;
+                -ms-overflow-style: none !important;
+                overflow-x: scroll !important;
+        }
+                ::-webkit-scrollbar {
+                    display: none;
+                }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+            scrollbar-width: none !important;
+                -ms-overflow-style: none !important;
+                overflow-x: scroll !important;;
+        }
+                ::-webkit-scrollbar {
+                    display: none;
+                }
+}
+
+@media only screen and (max-width: 430px) {
+    body {
+            scrollbar-width: none !important;
+                -ms-overflow-style: none !important;
+                overflow-x: scroll !important;
+        }
+                ::-webkit-scrollbar {
+                    display: none;
+                }
+}
+
+@media only screen and (max-width: 425px) {
+    body {
+            scrollbar-width: none !important;
+                -ms-overflow-style: none !important;
+                overflow-x: scroll !important;
+        }
+                ::-webkit-scrollbar {
+                    display: none;
+                }
+}
+
+@media only screen and (max-width: 375px) {
+    body {
+            scrollbar-width: none !important;
+                -ms-overflow-style: none !important;
+                overflow-x: scroll !important;
+        }
+                ::-webkit-scrollbar {
+                    display: none;
+                }
+}
+
+@media only screen and (max-width: 320px) {
+    body {
+            scrollbar-width: none !important;
+                -ms-overflow-style: none !important;
+                overflow-x: scroll !important;
+        }
+                ::-webkit-scrollbar {
+                    display: none;
+                }
 }
 
 code {
@@ -61,7 +156,7 @@ code {
 /*section-themes-margins*/
 /*section-themes-margins*/
 #top {
-    padding: 0 !important;
+    padding: 0.1rem 0 0 0 !important;
 }
 
 #section-header {
@@ -77,63 +172,39 @@ code {
 }
 
 #section-education {
-    /*FIXME: test padding*/
-    padding: 10rem 0 5rem 0 !important;
-    margin: 5rem auto;
+    padding: 10rem 0 0 0 !important;
 }
 
 #section-projects {
-    /*FIXME: test padding*/
-    padding: 7rem 0 0 0 !important;
-    margin: 5rem auto;
+    padding: 10rem 0 5rem 0 !important;
 }
+
+/*projects*/
+
+.Container-project {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
 /*progressBar*/
-
-@keyframes fadeinleft {
-    0% {
-        opacity: 0;
-        position: relative;
-        left: -5rem;
-    }
-    50% {
-        left: 0rem;
-    }
-    100% {
-        opacity: 1;
-        left: 0;
-    }
-}
-
-@keyframes fadeinright {
-    0% {
-        opacity: 0;
-        position: relative;
-        right: -5rem;
-    }
-
-    50% {
-        right: 0rem;
-    }
-
-    100% {
-        opacity: 1;
-        right: 0;
-    }
-}
 
 .container-first-column {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 3rem;
-    animation: fadeinleft 1s ease-in;
+    /* animation: fadeinleft 1s ease-in; */
 }
 .container-second-column {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 3rem;
-    animation: fadeinright 1s ease-in;
+    /* animation: fadeinright 1s ease-in; */
 }
 
 .breakpoints {
@@ -194,3 +265,4 @@ code {
         width: 18rem;
     }
 }
+

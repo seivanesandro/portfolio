@@ -1,13 +1,15 @@
 import React from 'react';
 //import PropTypes from 'prop-types'
-import styled, {
-    keyframes
-} from 'styled-components';
+import styled  from 'styled-components';
 import Skills from './Skills';
 import { devices } from '../../utils/constantes';
 import dataSkills from '../../data/dataSkills';
 
-const ContainerSkills = styled.div`
+import { Reveal } from 'react-gsap';
+import { FadeInLeft } from '../../utils/FadeInLeft';
+import { FadeInRight } from '../../utils/FadeInRight';
+
+const ContainerProgressSkills = styled.div`
     display: flex;
     flex-direction: row;
     gap: 10rem;
@@ -63,34 +65,47 @@ const SectionSkills = () => {
         <>
             <h6>SectionSkills</h6>
 
-            <ContainerSkills className="skills">
-                <div className="container-first-column">
-                    {dataFirstColumn.map(data => (
-                        <Skills
-                            key={data.id}
-                            skilltech={data.skill}
-                            skillprogress={
-                                data.value
-                            }
-                        />
-                    ))}
-                </div>
-                <div className="container-second-column">
-                    {dataSecondColumn.map(
-                        data => (
-                            <Skills
-                                key={data.id}
-                                skilltech={
-                                    data.skill
-                                }
-                                skillprogress={
-                                    data.value
-                                }
-                            />
-                        )
-                    )}
-                </div>
-            </ContainerSkills>
+            <Reveal
+                repeat
+                trigger={
+                    <ContainerProgressSkills />
+                }
+            >
+                <FadeInLeft>
+                    <div className="container-first-column">
+                        {dataFirstColumn.map(
+                            data => (
+                                <Skills
+                                    key={data.id}
+                                    skilltech={
+                                        data.skill
+                                    }
+                                    skillprogress={
+                                        data.value
+                                    }
+                                />
+                            )
+                        )}
+                    </div>
+                </FadeInLeft>
+                <FadeInRight>
+                    <div className="container-second-column">
+                        {dataSecondColumn.map(
+                            data => (
+                                <Skills
+                                    key={data.id}
+                                    skilltech={
+                                        data.skill
+                                    }
+                                    skillprogress={
+                                        data.value
+                                    }
+                                />
+                            )
+                        )}
+                    </div>
+                </FadeInRight>
+            </Reveal>
         </>
     );
 };
