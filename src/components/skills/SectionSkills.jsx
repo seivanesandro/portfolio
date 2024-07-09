@@ -1,6 +1,6 @@
 import React from 'react';
 //import PropTypes from 'prop-types'
-import styled  from 'styled-components';
+import styled from 'styled-components';
 import Skills from './Skills';
 import { devices } from '../../utils/constantes';
 import dataSkills from '../../data/dataSkills';

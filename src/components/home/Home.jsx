@@ -104,7 +104,6 @@ const Home = props => {
             <div id="section-projects">
                 <SectionProjects />
             </div>
-            
 
             <div style={{ width: '10rem' }}></div>
         </ContainerHome>

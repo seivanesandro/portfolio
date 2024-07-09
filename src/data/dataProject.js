@@ -12,7 +12,10 @@ let dataProjects = [
         name: 'App TODO',
         link: 'https://seivanesandro.github.io/todo/',
         icon: (
-            <RiTodoLine size={80} color="black" />
+            <RiTodoLine
+                size={80}
+                className="icon-animation"
+            />
         )
     },
     {
@@ -20,7 +23,10 @@ let dataProjects = [
         name: 'App CodePen',
         link: 'https://seivanesandro.github.io/code_pen/',
         icon: (
-            <FaCodepen size={80} color="black" />
+            <FaCodepen
+                size={80}
+                className="icon-animation"
+            />
         )
     },
     {
@@ -30,7 +36,7 @@ let dataProjects = [
         icon: (
             <MdOutlineLocalMovies
                 size={80}
-                color="black"
+                className="icon-animation"
             />
         )
     },
@@ -38,7 +44,12 @@ let dataProjects = [
         id: 4,
         name: 'App BookSearch',
         link: 'https://seivanesandro.github.io/MysearchBooks/#/',
-        icon: <PiBooks size={80} color="black" />
+        icon: (
+            <PiBooks
+                size={80}
+                className="icon-animation"
+            />
+        )
     },
     {
         id: 5,
@@ -47,7 +58,7 @@ let dataProjects = [
         icon: (
             <MdTravelExplore
                 size={80}
-                color="black"
+                className="icon-animation"
             />
         )
     },
@@ -58,7 +69,7 @@ let dataProjects = [
         icon: (
             <IoNewspaperOutline
                 size={80}
-                color="black"
+                className="icon-animation"
             />
         )
     },
@@ -69,7 +80,7 @@ let dataProjects = [
         icon: (
             <MdOutlineChat
                 size={80}
-                color="black"
+                className="icon-animation"
             />
         )
     }

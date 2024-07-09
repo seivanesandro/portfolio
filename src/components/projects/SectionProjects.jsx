@@ -7,7 +7,7 @@ import { Reveal } from 'react-gsap';
 
 import { FadeInRight } from '../../utils/FadeInRight';
 
-import styled from 'styled-components'
+import styled from 'styled-components';
 import { devices } from '../../utils/constantes';
 
 const ContainerPRojects = styled.div`
@@ -40,8 +40,6 @@ const ContainerPRojects = styled.div`
     }
 `;
 
-
-
 const SectionProjects = () => {
     return (
         <>
@@ -62,7 +60,9 @@ const SectionProjects = () => {
                                     projecticon={
                                         data.icon
                                     }
-                                    projectlink={data.link}
+                                    projectlink={
+                                        data.link
+                                    }
                                 />
                             )
                         )}

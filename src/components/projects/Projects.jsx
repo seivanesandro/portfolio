@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 //import PropTypes from 'prop-types'
 import Card from 'react-bootstrap/Card';
 import styled from 'styled-components';
@@ -10,14 +10,11 @@ const ContainerProjects = styled.div`
     align-items: center;
     text-align: center;
     gap: 1rem;
-    color: #333;
-    cursor: pointer;
 `;
 
 const ProjectLink = styled.a`
     text-decoration: none;
-    color: #333;
-    font-weight: 700;
+    color: #333 !important;
 `;
 
 const Projects = ({
@@ -32,32 +29,22 @@ const Projects = ({
                     <Card
                         bg={variant.toLowerCase()}
                         key={variant}
-                        text={
-                            variant.toLowerCase() ===
-                            'info'
-                                ? 'dark'
-                                : 'white'
-                        }
                         style={{ width: '18rem' }}
-                        className="mb-2 shadow"
+                        className="container-card-style shadow"
                     >
-                        <Card.Body>
-                        <ProjectLink
-                                    href={
-                                        projectlink
-                                    }
-                                    target="_blank"
-                                    rel="noreferrer"
-                                >
-                            <Card.Title>
-                                {variant}
-                                {projectname}
-                            </Card.Title>
-                            <Card.Text>
-                                
+                        <Card.Body className="card-style">
+                            <ProjectLink
+                                href={projectlink}
+                                target="_blank"
+                                rel="noreferrer"
+                                className="card-link-style"
+                            >
+                                <Card.Title className="title-animation">
+                                    {projectname}
+                                </Card.Title>
+                                <Card.Text className="text-animation">
                                     {projecticon}
-                                
-                            </Card.Text>
+                                </Card.Text>
                             </ProjectLink>
                         </Card.Body>
                     </Card>
@@ -67,6 +54,6 @@ const Projects = ({
     );
 };
 
-Projects.propTypes = {}
+Projects.propTypes = {};
 
-export default Projects
+export default Projects;

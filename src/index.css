@@ -13,95 +13,95 @@ body {
     background: #eeeeee;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     display: none;
 }
 @media only screen and (max-width: 2560px) {
     body {
-            scrollbar-width: none !important;
-                -ms-overflow-style: none !important;
-                overflow-x: scroll !important;
-        }
-                ::-webkit-scrollbar {
-                    display: none;
-                }
+        scrollbar-width: none !important;
+        -ms-overflow-style: none !important;
+        overflow-x: scroll !important;
+    }
+    ::-webkit-scrollbar {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 1440px) {
     body {
-            scrollbar-width: none !important;
-                -ms-overflow-style: none !important;
-                overflow-x: scroll !important;
-        }
-                ::-webkit-scrollbar {
-                    display: none;
-                }
+        scrollbar-width: none !important;
+        -ms-overflow-style: none !important;
+        overflow-x: scroll !important;
+    }
+    ::-webkit-scrollbar {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
     body {
-            scrollbar-width: none !important;
-                -ms-overflow-style: none !important;
-                overflow-x: scroll !important;
-        }
-                ::-webkit-scrollbar {
-                    display: none;
-                }
+        scrollbar-width: none !important;
+        -ms-overflow-style: none !important;
+        overflow-x: scroll !important;
+    }
+    ::-webkit-scrollbar {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 768px) {
     body {
-            scrollbar-width: none !important;
-                -ms-overflow-style: none !important;
-                overflow-x: scroll !important;;
-        }
-                ::-webkit-scrollbar {
-                    display: none;
-                }
+        scrollbar-width: none !important;
+        -ms-overflow-style: none !important;
+        overflow-x: scroll !important;
+    }
+    ::-webkit-scrollbar {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 430px) {
     body {
-            scrollbar-width: none !important;
-                -ms-overflow-style: none !important;
-                overflow-x: scroll !important;
-        }
-                ::-webkit-scrollbar {
-                    display: none;
-                }
+        scrollbar-width: none !important;
+        -ms-overflow-style: none !important;
+        overflow-x: scroll !important;
+    }
+    ::-webkit-scrollbar {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 425px) {
     body {
-            scrollbar-width: none !important;
-                -ms-overflow-style: none !important;
-                overflow-x: scroll !important;
-        }
-                ::-webkit-scrollbar {
-                    display: none;
-                }
+        scrollbar-width: none !important;
+        -ms-overflow-style: none !important;
+        overflow-x: scroll !important;
+    }
+    ::-webkit-scrollbar {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 375px) {
     body {
-            scrollbar-width: none !important;
-                -ms-overflow-style: none !important;
-                overflow-x: scroll !important;
-        }
-                ::-webkit-scrollbar {
-                    display: none;
-                }
+        scrollbar-width: none !important;
+        -ms-overflow-style: none !important;
+        overflow-x: scroll !important;
+    }
+    ::-webkit-scrollbar {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 320px) {
     body {
-            scrollbar-width: none !important;
-                -ms-overflow-style: none !important;
-                overflow-x: scroll !important;
-        }
-                ::-webkit-scrollbar {
-                    display: none;
-                }
+        scrollbar-width: none !important;
+        -ms-overflow-style: none !important;
+        overflow-x: scroll !important;
+    }
+    ::-webkit-scrollbar {
+        display: none;
+    }
 }
 
 code {
@@ -181,13 +181,58 @@ code {
 
 /*projects*/
 
-.Container-project {
+.container-project {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 5rem;
+
+    padding: 5rem;
+    border: 1px solid blue;
+}
+@media only screen and (max-width: 768px) {
+    .container-project {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .container-project {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .container-project {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .container-project {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .container-project {
+        padding: 0;
+    }
+}
+
+.container-card-style,
+.card-style,
+.card-link-style {
+    color: #333 !important;
+}
+.container-card-style:hover,
+.card-style:hover,
+.card-link-style:hover {
+    background: #fff !important;
+    border-radius: 0.3rem;
+    box-shadow: 0 0 0.4rem #0066cc;
 }
 
 /*progressBar*/
@@ -265,4 +310,3 @@ code {
         width: 18rem;
     }
 }
-
