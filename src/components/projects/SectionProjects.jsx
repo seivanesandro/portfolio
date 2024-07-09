@@ -10,13 +10,14 @@ import { FadeInRight } from '../../utils/FadeInRight';
 import styled from 'styled-components';
 import { devices } from '../../utils/constantes';
 
-const ContainerPRojects = styled.div`
+const ContainerProjects = styled.div`
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 5rem;
+
     @media only screen and (${devices.iphone14}) {
         gap: 3rem;
         padding: 0;
@@ -46,10 +47,10 @@ const SectionProjects = () => {
             <h6>SectionProjects</h6>
             <Reveal
                 repeat
-                trigger={<ContainerPRojects />}
+                trigger={<ContainerProjects />}
             >
                 <FadeInRight>
-                    <ContainerPRojects className="container-project">
+                    <ContainerProjects className="container-project">
                         {dataProjects.map(
                             data => (
                                 <Projects
@@ -66,7 +67,7 @@ const SectionProjects = () => {
                                 />
                             )
                         )}
-                    </ContainerPRojects>
+                    </ContainerProjects>
                 </FadeInRight>
             </Reveal>
         </>

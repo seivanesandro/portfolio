@@ -14,7 +14,6 @@ const ContainerProgressSkills = styled.div`
     flex-direction: row;
     gap: 10rem;
     padding: 10px;
-    border: 1px solid blue; //TODO: delete on end
 
     @media only screen and (${devices.fourk}) {
         gap: 10rem;

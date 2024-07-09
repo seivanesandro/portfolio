@@ -32,8 +32,6 @@ const ContainerHeader = styled.div`
     gap: 0;
     padding: 4.8rem;
 
-    border: 1px solid blue;
-
     @media only screen and (${devices.portatil}) {
         padding: 0;
         gap: 2rem;
@@ -72,10 +70,7 @@ const ContainerHeader = styled.div`
 
 const Home = props => {
     return (
-        <ContainerHome
-            id="top"
-            className="main border boder-primary"
-        >
+        <ContainerHome id="top" className="main">
             <SectionCarousel />
 
             <Reveal repeat trigger={<div />}>
@@ -94,18 +89,16 @@ const Home = props => {
             <div id="section-experience">
                 <SectionExperience />
             </div>
-            <Reveal repeat trigger={<div />}>
-                <FadeInLeft>
-                    <div id="section-education">
-                        <SectionEducation />
-                    </div>
-                </FadeInLeft>
-            </Reveal>
+            <div id="section-education">
+                <SectionEducation />
+            </div>
             <div id="section-projects">
                 <SectionProjects />
             </div>
 
-            <div style={{ width: '10rem' }}></div>
+            <div
+                style={{ height: '10rem' }}
+            ></div>
         </ContainerHome>
     );
 };

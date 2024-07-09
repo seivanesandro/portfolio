@@ -31,7 +31,6 @@ const ContainerSectionProfile = styled.div`
     padding: 10px;
 
     animation: ${Show} 2s ease-in;
-    border: 1px solid blue; //TODO: delete on end
     @media only screen and (${devices.portatil}) {
         margin: 3px;
     }
