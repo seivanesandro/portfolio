@@ -82,7 +82,16 @@ const AboutDetails = ({
                         {address}
                     </span>
                 </TitlesStyles>
-                
+                <TitlesStyles>
+                    Email:{' '}
+                    <span
+                        style={{
+                            fontWeight: '400'
+                        }}
+                    >
+                        {email}
+                    </span>
+                </TitlesStyles>
                 <TitlesStyles>
                     Telefone:{' '}
                     <span

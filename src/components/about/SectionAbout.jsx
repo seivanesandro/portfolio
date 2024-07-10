@@ -59,6 +59,7 @@ const SectionAbout = props => {
                     textAboutme={data.aboutMe}
                     name={data.name}
                     address={data.address}
+                    email={data.email}
                     phone={data.phone}
                     mainlanguage={
                         data.firstLanguage
