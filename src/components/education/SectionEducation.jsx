@@ -21,7 +21,6 @@ const ContainerEducation = styled.div`
 const SectionEducation = () => {
     return (
         <>
-            <h6>SectionEducation</h6>
             <Reveal
                 repeat
                 trigger={<ContainerEducation />}

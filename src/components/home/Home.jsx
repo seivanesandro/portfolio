@@ -34,13 +34,13 @@ const ContainerHeader = styled.div`
 
     @media only screen and (${devices.portatil}) {
         padding: 0;
-        gap: 2rem;
+        gap: 1rem;
     }
     @media only screen and (${devices.tablet}) {
         flex-direction: column;
         padding: 0;
         align-items: center;
-        gap: 3rem;
+        gap: 1rem;
     }
     @media only screen and (${devices.iphone14}) {
         flex-direction: column;
@@ -95,10 +95,10 @@ const Home = props => {
             <div id="section-projects">
                 <SectionProjects />
             </div>
-
+            {/* 
             <div
                 style={{ height: '10rem' }}
-            ></div>
+            ></div> */}
         </ContainerHome>
     );
 };

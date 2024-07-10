@@ -5,10 +5,10 @@ import NavBar from '../components/navbar/NavBar';
 
 const Osp = props => {
     return (
-        <div className="col s12 m3">
+        <>
             <NavBar />
             <Home />
-        </div>
+        </>
     );
 };
 

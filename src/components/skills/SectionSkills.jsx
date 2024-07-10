@@ -62,8 +62,6 @@ const SectionSkills = () => {
     );
     return (
         <>
-            <h6>SectionSkills</h6>
-
             <Reveal
                 repeat
                 trigger={

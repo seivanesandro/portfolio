@@ -115,7 +115,7 @@ let timeLineItems = dataExperience;
 const TimeLine = () => {
     return (
         <>
-            <VerticalTimeline lineColor="#fff">
+            <VerticalTimeline lineColor="#c1c1c1">
                 {timeLineItems.map(items => {
                     let button =
                         items.link !==
@@ -210,7 +210,7 @@ const TimeLine = () => {
                 })}
                 <VerticalTimelineElement
                     iconStyle={{
-                        background: '#FF9999',
+                        background: 'coral',
                         color: '#fff'
                     }}
                     icon={

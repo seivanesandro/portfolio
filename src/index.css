@@ -1,3 +1,9 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont,
@@ -11,97 +17,6 @@ body {
     -ms-overflow-style: none !important;
     overflow-x: scroll !important;
     background: #eeeeee;
-}
-
-::-webkit-scrollbar {
-    display: none;
-}
-@media only screen and (max-width: 2560px) {
-    body {
-        scrollbar-width: none !important;
-        -ms-overflow-style: none !important;
-        overflow-x: scroll !important;
-    }
-    ::-webkit-scrollbar {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 1440px) {
-    body {
-        scrollbar-width: none !important;
-        -ms-overflow-style: none !important;
-        overflow-x: scroll !important;
-    }
-    ::-webkit-scrollbar {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 1024px) {
-    body {
-        scrollbar-width: none !important;
-        -ms-overflow-style: none !important;
-        overflow-x: scroll !important;
-    }
-    ::-webkit-scrollbar {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    body {
-        scrollbar-width: none !important;
-        -ms-overflow-style: none !important;
-        overflow-x: scroll !important;
-    }
-    ::-webkit-scrollbar {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 430px) {
-    body {
-        scrollbar-width: none !important;
-        -ms-overflow-style: none !important;
-        overflow-x: scroll !important;
-    }
-    ::-webkit-scrollbar {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 425px) {
-    body {
-        scrollbar-width: none !important;
-        -ms-overflow-style: none !important;
-        overflow-x: scroll !important;
-    }
-    ::-webkit-scrollbar {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 375px) {
-    body {
-        scrollbar-width: none !important;
-        -ms-overflow-style: none !important;
-        overflow-x: scroll !important;
-    }
-    ::-webkit-scrollbar {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 320px) {
-    body {
-        scrollbar-width: none !important;
-        -ms-overflow-style: none !important;
-        overflow-x: scroll !important;
-    }
-    ::-webkit-scrollbar {
-        display: none;
-    }
 }
 
 code {
@@ -160,23 +75,23 @@ code {
 }
 
 #section-header {
-    padding: 10rem 0 0 0 !important;
+    padding: 10rem 0 10rem 0 !important;
 }
 
 #section-skills {
-    padding: 10rem 0 0 0 !important;
+    padding: 10rem 0 10rem 0 !important;
 }
 
 #section-experience {
-    padding: 10rem 0 0 0 !important;
+    padding: 10rem 0 10rem 0 !important;
 }
 
 #section-education {
-    padding: 10rem 0 0 0 !important;
+    padding: 10rem 0 10rem 0 !important;
 }
 
 #section-projects {
-    padding: 25rem 0 5rem 0 !important;
+    padding: 10rem 0 10rem 0 !important;
 }
 
 /*education*/
@@ -326,9 +241,7 @@ code {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 10rem ;
-
-    padding: 10rem 42rem;
+    gap: 10rem;
 }
 @media only screen and (max-width: 768px) {
     .container-project {

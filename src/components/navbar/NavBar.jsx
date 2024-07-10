@@ -15,7 +15,7 @@ import { HashLink } from 'react-router-hash-link';
 const NavBar = props => {
     return (
         <>
-            {['lg'].map(expand => (
+            {['xl'].map(expand => (
                 <Navbar
                     key={expand}
                     expand={expand}
@@ -51,7 +51,7 @@ const NavBar = props => {
                         <Navbar.Offcanvas
                             id={`offcanvasNavbar-expand-${expand}`}
                             aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
-                            placement="end"
+                            placement="start"
                             data-bs-theme="dark"
                         >
                             <Offcanvas.Header

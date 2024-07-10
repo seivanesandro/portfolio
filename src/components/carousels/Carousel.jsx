@@ -102,7 +102,7 @@ function DarkVariantExample() {
     return (
         <Carousel
             data-bs-theme="dark"
-            className="border"
+            className="carousel-container"
         >
             <Carousel.Item>
                 <ImgStyle

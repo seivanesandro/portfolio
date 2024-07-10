@@ -18,6 +18,7 @@ const ContainerProjects = styled.div`
     justify-content: center;
     gap: 5rem;
 
+    margin: 0 10px;
     @media only screen and (${devices.iphone14}) {
         gap: 3rem;
         padding: 0;
@@ -44,7 +45,6 @@ const ContainerProjects = styled.div`
 const SectionProjects = () => {
     return (
         <>
-            <h6>SectionProjects</h6>
             <Reveal
                 repeat
                 trigger={<ContainerProjects />}
