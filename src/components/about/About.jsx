@@ -41,7 +41,8 @@ const About = ({
     textAboutme
 }) => {
     const [aboutMe, setAboutMe] = useState(false);
-    const [personalInfo, setPersonalInfo] = useState(false);
+    const [personalInfo, setPersonalInfo] =
+        useState(false);
 
     const handleAbout = () => {
         setAboutMe(true);

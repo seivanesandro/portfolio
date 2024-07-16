@@ -30,7 +30,7 @@ const ContainerHeader = styled.div`
     justify-content: center;
     align-items: stretch;
     gap: 0;
-   /*  padding: 4.8rem; */
+    /*  padding: 4.8rem; */
 
     @media only screen and (${devices.portatil}) {
         padding: 0;
