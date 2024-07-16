@@ -41,8 +41,7 @@ const About = ({
     textAboutme
 }) => {
     const [aboutMe, setAboutMe] = useState(false);
-    const [personalInfo, setPersonalInfo] =
-        useState(false);
+    const [personalInfo, setPersonalInfo] = useState(false);
 
     const handleAbout = () => {
         setAboutMe(true);
@@ -55,8 +54,8 @@ const About = ({
     return (
         <>
             <Card
-                style={{ width: 'auto' }}
-                className="rounded shadow"
+                // style={{ width: '22rem' }}
+                className="card-about rounded shadow"
             >
                 <Card.Header>
                     <Nav

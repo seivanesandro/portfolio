@@ -15,8 +15,9 @@ body {
 
     scrollbar-width: none !important;
     -ms-overflow-style: none !important;
-    overflow-x: scroll !important;
-    background: #eeeeee;
+    overflow-x: hidden !important;
+    overflow-y: scroll !important;
+    background: #333;
 }
 
 code {
@@ -68,18 +69,62 @@ code {
     color: rgb(246, 12, 12) !important;
 }
 
-/*section-themes-margins*/
+
+/*about me*/
+.card-about{
+    width: 40rem !important;
+}
+
+@media only screen and (max-width: 430px) {
+    .card-about{
+        width: 22rem !important;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .card-about {
+            width: 22rem !important;
+        }
+    }
+
+@media only screen and (max-width: 375px) {
+    .card-about {
+            width: 20rem !important;
+        }
+}
+
+@media only screen and (max-width: 320px) {
+.card-about {
+        width: 18rem !important;
+    }
+}
+
 /*section-themes-margins*/
 #top {
-    padding: 0.1rem 0 0 0 !important;
+    padding: 0.1rem 0 !important;
 }
 
-#section-header {
+ .container-caroussel{
+        display: block;
+        padding: 3rem 24% !important;
+} 
+
+ .header-container{
+        display: block;
+        padding: 10rem 36% !important;
+} 
+
+
+/* #section-header {
     padding: 10rem 0 10rem 0 !important;
 }
-
+ */
 #section-skills {
-    padding: 10rem 0 10rem 0 !important;
+    background: #fff;
+        display: block;
+        /* flex-direction: row; */
+        /* gap: 2rem; */
+    padding: 10rem 25% !important;
 }
 
 #section-experience {
@@ -87,11 +132,228 @@ code {
 }
 
 #section-education {
-    padding: 10rem 0 10rem 0 !important;
+    background: #fff;
+        display: block;
+        padding: 10rem 30% !important;
 }
 
 #section-projects {
-    padding: 10rem 0 10rem 0 !important;
+        display: block;
+        margin: 5rem 25% !important;
+}
+
+@media only screen and (max-width: 2560px) {
+    .container-caroussel {
+            padding: 0 22% !important;
+        }
+
+    .header-container {
+            padding: 10rem 29.7% !important;
+        }
+    
+
+        #section-skills {
+            padding: 10rem 31% !important;
+        }
+    
+        #section-experience {
+            padding: 10rem 0 !important;
+        }
+    
+        #section-education {
+            padding: 10rem 24.4% !important;
+        }
+    
+        #section-projects {
+            padding: 10rem 1% !important;
+        }
+}
+
+@media only screen and (max-width: 1920px) {
+    .container-caroussel {
+            padding: 0 22% !important;
+        }
+    .header-container {
+        padding: 10rem 22.7% !important;
+    }
+
+
+    #section-skills {
+        padding: 10rem 24.6% !important;
+    }
+
+    #section-experience {
+        padding: 10rem 0 !important;
+    }
+
+    #section-education {
+        padding: 10rem 10.4% !important;
+    }
+
+    #section-projects {
+        padding: 10rem 1% !important;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .header-container {
+            padding: 10rem 15.6% !important;
+        }
+    
+    
+        #section-skills {
+            padding: 10rem 19% !important;
+        }
+    
+        #section-experience {
+            padding: 10rem 0 10rem 0 !important;
+        }
+    
+        #section-education {
+            padding: 10rem 6.4% !important;
+        }
+    
+        #section-projects {
+            padding: 10rem 1% !important;
+        }
+}
+
+@media only screen and (max-width: 1024px) {
+    .header-container {
+            padding: 10rem 1.4% !important;
+        }
+    
+    
+        #section-skills {
+            padding: 10rem 7.5% !important;
+        }
+    
+        #section-experience {
+            padding: 10rem 0 10rem 0 !important;
+        }
+    
+        #section-education {
+            padding: 10rem 4.6% !important;
+        }
+    
+        #section-projects {
+            padding: 10rem 1% !important;
+        }
+}
+
+@media only screen and (max-width: 768px) {
+    .header-container {
+            padding: 10rem 6.7% !important;
+        }
+    
+    
+        #section-skills {
+            padding: 10rem 5% !important;
+        }
+    
+        #section-experience {
+            padding: 10rem 0 10rem 0 !important;
+        }
+    
+        #section-education {
+            padding: 10rem 4.6% !important;
+        }
+    
+        #section-projects {
+            padding: 10rem 1% !important;
+        }
+}
+
+@media only screen and (max-width: 430px) {
+    .header-container {
+            padding: 10rem 5.8% !important;
+        }
+    
+    
+        #section-skills {
+            padding: 10rem 12.6% !important;
+        }
+    
+        #section-experience {
+            padding: 10rem 0 10rem 0 !important;
+        }
+    
+        #section-education {
+            padding: 10rem 6.9% !important;
+        }
+    
+        #section-projects {
+            padding: 10rem 10.9% !important;
+        }
+}
+
+@media only screen and (max-width: 425px) {
+    .header-container {
+            padding: 10rem 5.8% !important;
+        }
+    
+    
+        #section-skills {
+            padding: 10rem 12.6% !important;
+        }
+    
+        #section-experience {
+            padding: 10rem 0 10rem 0 !important;
+        }
+    
+        #section-education {
+            padding: 10rem 6.9% !important;
+        }
+    
+        #section-projects {
+            padding: 10rem 10.9% !important;
+        }
+}
+
+@media only screen and (max-width: 375px) {
+    .header-container {
+            padding: 10rem 3.8% !important;
+        }
+    
+    
+        #section-skills {
+            padding: 10rem 7% !important;
+        }
+    
+        #section-experience {
+            padding: 10rem 0 10rem 0 !important;
+        }
+    
+        #section-education {
+            padding: 10rem 9.5% !important;
+        }
+    
+        #section-projects {
+            padding: 10rem 5.4% !important;
+        }
+}
+
+@media only screen and (max-width: 320px) {
+    .header-container {
+            padding: 10rem 5% !important;
+        }
+    
+    
+        #section-skills {
+            padding: 10rem 5% !important;
+        }
+    
+        #section-experience {
+            padding: 10rem 0 10rem 0 !important;
+        }
+    
+        #section-education {
+            padding: 10rem 5% !important;
+        }
+    
+        #section-projects {
+            padding: 10rem 4.8% !important;
+        }
 }
 
 /*education*/

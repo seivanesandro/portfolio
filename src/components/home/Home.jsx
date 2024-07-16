@@ -30,7 +30,7 @@ const ContainerHeader = styled.div`
     justify-content: center;
     align-items: stretch;
     gap: 0;
-    padding: 4.8rem;
+   /*  padding: 4.8rem; */
 
     @media only screen and (${devices.portatil}) {
         padding: 0;
@@ -71,16 +71,22 @@ const ContainerHeader = styled.div`
 const Home = props => {
     return (
         <ContainerHome id="top" className="main">
-            <SectionCarousel />
-
-            <Reveal repeat trigger={<div />}>
-                <FadeInLeft>
-                    <ContainerHeader id="section-header">
-                        <SectionProfile />
-                        <SectionAbout />
-                    </ContainerHeader>
-                </FadeInLeft>
-            </Reveal>
+            <div className="container-caroussel">
+                <SectionCarousel />
+            </div>
+            <div className="header-container">
+                <Reveal
+                    repeat
+                    trigger={<ContainerHeader />}
+                >
+                    <FadeInLeft>
+                        <ContainerHeader id="section-header">
+                            <SectionProfile />
+                            <SectionAbout />
+                        </ContainerHeader>
+                    </FadeInLeft>
+                </Reveal>
+            </div>
 
             <div id="section-skills">
                 <SectionSkills />

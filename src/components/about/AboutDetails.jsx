@@ -47,7 +47,7 @@ const ParagraphText = styled.p`
     }
     @media only screen and (${devices.mobileP}) {
         text-align: start;
-        width: 17rem;
+        width: 16rem;
         padding: 0;
     }
 `;

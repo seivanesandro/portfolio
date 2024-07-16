@@ -16,9 +16,9 @@ const ContainerProjects = styled.div`
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 5rem;
+    gap: 4rem;
 
-    margin: 0 10px;
+    margin: 0 11px;
     @media only screen and (${devices.iphone14}) {
         gap: 3rem;
         padding: 0;
@@ -38,6 +38,7 @@ const ContainerProjects = styled.div`
     @media only screen and (${devices.mobileP}) {
         gap: 3rem;
         padding: 0;
+        margin: 0;
         flex-direction: column;
     }
 `;
