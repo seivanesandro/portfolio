@@ -99,14 +99,11 @@ code {
 }
 
 /*section-themes-margins*/
-#top {
-    padding: 0.1rem 0 !important;
-}
-
+/* 
 .container-caroussel {
     display: block;
     padding: 3rem 24% !important;
-}
+} */
 
 .header-container {
     display: block;

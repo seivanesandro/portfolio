@@ -6,7 +6,7 @@ import SectionExperience from '../experience/SectionExperience';
 import SectionEducation from '../education/SectionEducation';
 import SectionProjects from '../projects/SectionProjects';
 import SectionProfile from '../profile/SectionProfile';
-import SectionCarousel from '../carousels/SectionCarousel';
+//import SectionCarousel from '../carousels/SectionCarousel';
 
 import styled from 'styled-components';
 import { devices } from '../../utils/constantes';
@@ -70,17 +70,20 @@ const ContainerHeader = styled.div`
 
 const Home = props => {
     return (
-        <ContainerHome id="top" className="main">
-            <div className="container-caroussel">
+        <ContainerHome className="main">
+            {/*  <div className="container-caroussel">
                 <SectionCarousel />
-            </div>
-            <div className="header-container">
+            </div> */}
+            <div
+                id="section-header"
+                className="header-container"
+            >
                 <Reveal
                     repeat
                     trigger={<ContainerHeader />}
                 >
                     <FadeInLeft>
-                        <ContainerHeader id="section-header">
+                        <ContainerHeader>
                             <SectionProfile />
                             <SectionAbout />
                         </ContainerHeader>
