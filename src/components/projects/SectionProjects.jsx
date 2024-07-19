@@ -46,7 +46,11 @@ const ContainerProjects = styled.div`
 const SectionProjects = () => {
     return (
         <>
-           
+            <Reveal
+                repeat
+                trigger={<ContainerProjects />}
+            >
+                <FadeInRight>
                     <ContainerProjects className="container-project">
                         {dataProjects.map(
                             data => (
@@ -65,7 +69,8 @@ const SectionProjects = () => {
                             )
                         )}
                     </ContainerProjects>
-
+                </FadeInRight>
+            </Reveal>
         </>
     );
 };
