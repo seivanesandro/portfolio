@@ -85,7 +85,7 @@ const About = ({
                         </Nav.Item>
                     </Nav>
                 </Card.Header>
-                <Card.Body>
+                <Card.Body className="mb-4">
                     {!aboutMe &&
                         !personalInfo && (
                             <TitleBeginning>

@@ -13,6 +13,7 @@ import { devices } from '../../utils/constantes';
 
 import { Reveal } from 'react-gsap';
 import { FadeInLeft } from '../../utils/FadeInLeft';
+import Title from '../title/Title';
 //import { FadeInRight } from '../../utils/FadeInRight';
 //import { FadeIn} from './FadeIn'
 
@@ -78,6 +79,7 @@ const Home = props => {
                 id="section-header"
                 className="header-container"
             >
+                <Title title="Sobre" />
                 <Reveal
                     repeat
                     trigger={<ContainerHeader />}
@@ -92,22 +94,26 @@ const Home = props => {
             </div>
 
             <div id="section-skills">
+                <Title title="Skills" />
                 <SectionSkills />
             </div>
 
             <div id="section-experience">
+                <Title title="Experiencia" />
                 <SectionExperience />
             </div>
             <div id="section-education">
+                <Title title="Educação" />
                 <SectionEducation />
             </div>
             <div id="section-projects">
+                <Title title="Projectos" />
                 <SectionProjects />
             </div>
-            {/* 
+
             <div
                 style={{ height: '10rem' }}
-            ></div> */}
+            ></div>
         </ContainerHome>
     );
 };

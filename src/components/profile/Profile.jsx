@@ -6,6 +6,9 @@ import Card from 'react-bootstrap/Card';
 import { BsLinkedin } from 'react-icons/bs';
 import { BsGithub } from 'react-icons/bs';
 import { SiGmail } from 'react-icons/si';
+import { RiProfileLine } from 'react-icons/ri';
+
+import doc from '../../docs/CV_Sandro_Seivane_PT_2024.pdf';
 
 import styled, {
     keyframes
@@ -68,8 +71,8 @@ const Profile = ({
                     title="sandro seivane"
                     className="card-top"
                 />
-                <Card.Body>
-                    <Card.Title>
+                <Card.Body className="py-4">
+                    <Card.Title className="h6 pb-4">
                         {cardtitle}
                     </Card.Title>
                     <CardLink
@@ -77,8 +80,9 @@ const Profile = ({
                         target="_blank"
                     >
                         <BsLinkedin
-                            size={40}
+                            size={32}
                             className="hoverLink m-2"
+                            title="go to my linkedIN"
                         />
                     </CardLink>
                     <CardLink
@@ -86,19 +90,48 @@ const Profile = ({
                         target="_blank"
                     >
                         <BsGithub
-                            size={45}
+                            size={35}
                             className="git m-2"
+                            title="go to my Github"
                         />
                     </CardLink>
                     <CardLink
                         href={`mailto:${linkgmail}`}
                     >
                         <SiGmail
-                            size={50}
+                            size={35}
                             className="gmail m-2"
+                            title="send me a e-mail"
+                        />
+                    </CardLink>
+                    <CardLink
+                        hrget="_blank"
+                        rel="noreferrer"
+                        href={doc}
+                        download
+                    >
+                        <RiProfileLine
+                            size={36}
+                            className="cv m-2"
+                            title="download my CV"
                         />
                     </CardLink>
                 </Card.Body>
+                {/* <Card.Footer className="text-center">
+                    <a
+                        target="_blank"
+                        rel="noreferrer"
+                        href={doc}
+                        download
+                    >
+                        <button
+                            type="button"
+                            className="btn m-3 btn-light"
+                        >
+                            Download CV
+                        </button>
+                    </a>
+                </Card.Footer> */}
             </Card>
         </>
     );

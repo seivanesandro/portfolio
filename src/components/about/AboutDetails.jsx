@@ -25,12 +25,12 @@ const Title = styled.h5`
 `;
 
 const ParagraphText = styled.p`
-    width: 40rem;
-    padding: 1.8rem;
+    width: 37rem;
+    padding: 0.8rem;
     animation: ${Show} 0.5s linear;
 
     @media only screen and (${devices.portatil}) {
-        width: 31rem;
+        width: 37rem;
         padding: 0.8rem;
     }
     @media only screen and (${devices.iphone14}) {
