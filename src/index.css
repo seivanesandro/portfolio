@@ -501,45 +501,38 @@ h6 {
 }
 
 /*projects*/
-
-.container-project {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 10rem;
+.container-card-style{
+    width: 18rem;
+    
 }
 @media only screen and (max-width: 768px) {
-    .container-project {
-        padding: 0;
-    }
+    .container-card-style {
+            width: 18rem;
+    
+        }
 }
 
 @media only screen and (max-width: 430px) {
-    .container-project {
-        padding: 0;
-    }
+    .container-card-style {
+            width: 16rem;
+    
+        }
 }
 
-@media only screen and (max-width: 425px) {
-    .container-project {
-        padding: 0;
-    }
-}
+@media only screen and (max-width: 425px) {.container-card-style {
+        width: 16rem;
 
-@media only screen and (max-width: 375px) {
-    .container-project {
-        padding: 0;
-    }
-}
+    }}
 
-@media only screen and (max-width: 320px) {
-    .container-project {
-        padding: 0;
-    }
-}
+@media only screen and (max-width: 375px) {.container-card-style {
+        width: 16rem;
 
+    }}
+
+@media only screen and (max-width: 320px) {.container-card-style {
+        width: 16rem;
+
+    }}
 .container-card-style,
 .card-style,
 .card-link-style {

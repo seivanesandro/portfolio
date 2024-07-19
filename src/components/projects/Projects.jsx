@@ -29,7 +29,6 @@ const Projects = ({
                     <Card
                         bg={variant.toLowerCase()}
                         key={variant}
-                        style={{ width: '18rem' }}
                         className="container-card-style shadow"
                     >
                         <Card.Body className="card-style">

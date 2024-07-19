@@ -5,17 +5,18 @@ import dataProjects from '../../data/dataProject';
 
 import { Reveal } from 'react-gsap';
 
-import { FadeInRight } from '../../utils/FadeInRight';
+//import { FadeInLeft } from '../../utils/FadeInLeft';
 
 import styled from 'styled-components';
 import { devices } from '../../utils/constantes';
+import { FadeInRight } from '../../utils/FadeInRight';
 
 const ContainerProjects = styled.div`
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    align-items: center !important;
+    justify-content: center !important;
     gap: 4rem;
 
     margin: 0 11px;
@@ -23,26 +24,28 @@ const ContainerProjects = styled.div`
         gap: 3rem;
         padding: 0;
         flex-direction: column;
-        opacity: 1;
+        opacity: 1 !important;
     }
     @media only screen and (${devices.mobileG}) {
         gap: 3rem;
         padding: 0;
         flex-direction: column;
+        opacity: 1 !important;
     }
     @media only screen and (${devices.mobileM}) {
         gap: 3rem;
         padding: 0;
         flex-direction: column;
+        opacity: 1 !important;
     }
     @media only screen and (${devices.mobileP}) {
         gap: 3rem;
         padding: 0;
         margin: 0;
         flex-direction: column;
+        opacity: 1 !important;
     }
 `;
-
 const SectionProjects = () => {
     return (
         <>
