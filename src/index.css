@@ -138,7 +138,9 @@ h6 {
 #section-skills {
     background: #fff;
     display: block;
-    padding: 10rem 25% !important;
+    padding: 10rem 23% !important;
+    width: 98% !important;
+    max-width:98%
 }
 
 #section-experience {
@@ -148,7 +150,9 @@ h6 {
 #section-education {
     background: #fff;
     display: block;
-    padding: 10rem 30% !important;
+    padding: 10rem 29% !important;
+    width: 98% !important;
+        max-width: 98% !important;
 }
 
 #section-projects {
