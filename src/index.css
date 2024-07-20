@@ -129,6 +129,8 @@ h6 {
 .header-container {
     display: block;
     padding: 10rem 36% !important;
+    width: 98% !important;
+        max-width: 98% !important;
 }
 
 /* #section-header {
@@ -140,7 +142,7 @@ h6 {
     display: block;
     padding: 10rem 23% !important;
     width: 98% !important;
-    max-width:98%
+    max-width:98% !important;
 }
 
 #section-experience {
@@ -568,12 +570,11 @@ h6 {
 }
 
 .breakpoints {
-    width: 23rem;
+    width: 20rem;
     height: 1.5rem;
     font-weight: 600;
     letter-spacing: 1.5px;
     background: lightgray;
-    box-shadow: 0 0 0.1rem #333;
 }
 .breakpoints:hover {
     box-shadow: 0 0 0.4rem #0066cc;
@@ -604,24 +605,24 @@ h6 {
 
 @media only screen and (max-width: 430px) {
     .breakpoints {
-        width: 20rem;
+        width: 19rem;
     }
 }
 
 @media only screen and (max-width: 425px) {
     .breakpoints {
-        width: 20rem;
+        width: 19rem;
     }
 }
 
 @media only screen and (max-width: 375px) {
     .breakpoints {
-        width: 20rem;
+        width: 19rem;
     }
 }
 
 @media only screen and (max-width: 320px) {
     .breakpoints {
-        width: 18rem;
+        width: 17rem;
     }
 }

@@ -103,7 +103,7 @@ const Localtion = styled('span')`
 `;
 
 const StyleDescription = styled('p')`
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     &.description {
         text-align: justify;
         margin: 1rem auto;
