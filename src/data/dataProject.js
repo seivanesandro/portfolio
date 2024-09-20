@@ -5,11 +5,12 @@ import { PiBooks } from 'react-icons/pi';
 import { MdTravelExplore } from 'react-icons/md';
 import { IoNewspaperOutline } from 'react-icons/io5';
 import { MdOutlineChat } from 'react-icons/md';
+import { MdOutlineShoppingCart } from 'react-icons/md';
 
 let dataProjects = [
     {
         id: 1,
-        name: 'App TODO',
+        name: 'Task App',
         link: 'https://seivanesandro.github.io/todo/',
         icon: (
             <RiTodoLine
@@ -20,7 +21,7 @@ let dataProjects = [
     },
     {
         id: 2,
-        name: 'App CodePen',
+        name: 'CodePen App',
         link: 'https://seivanesandro.github.io/code_pen/',
         icon: (
             <FaCodepen
@@ -31,7 +32,7 @@ let dataProjects = [
     },
     {
         id: 3,
-        name: 'App Movie-lib',
+        name: 'Movie-lib App',
         link: 'https://seivanesandro.github.io/movies_lib/#/',
         icon: (
             <MdOutlineLocalMovies
@@ -42,7 +43,7 @@ let dataProjects = [
     },
     {
         id: 4,
-        name: 'App BookSearch',
+        name: 'BookSearch App',
         link: 'https://seivanesandro.github.io/MysearchBooks/#/',
         icon: (
             <PiBooks
@@ -53,7 +54,7 @@ let dataProjects = [
     },
     {
         id: 5,
-        name: 'App Travel_Advisor',
+        name: 'Travel_Advisor App',
         link: 'https://seivanesandro.github.io/map_advisor/',
         icon: (
             <MdTravelExplore
@@ -79,6 +80,17 @@ let dataProjects = [
         link: 'https://seivanesandro.github.io/MyChat/',
         icon: (
             <MdOutlineChat
+                size={80}
+                className="icon-animation"
+            />
+        )
+    },
+    {
+        id: 8,
+        name: 'E-shop APP',
+        link: 'https://seivanesandro.github.io/e-shop/',
+        icon: (
+            <MdOutlineShoppingCart
                 size={80}
                 className="icon-animation"
             />

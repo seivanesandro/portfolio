@@ -569,6 +569,12 @@ h6 {
     /* animation: fadeinright 1s ease-in; */
 }
 
+.vertical-timeline-date{
+    color: #00CCCC;
+    font-size: 1.1rem !important;
+    font-weight: 500;
+}
+
 .breakpoints {
     width: 20rem;
     height: 1.5rem;
