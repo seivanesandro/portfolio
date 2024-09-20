@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b6005f51.css",
-    "main.js": "/portfolio/static/js/main.04cc3372.js",
+    "main.css": "/portfolio/static/css/main.ff81dc15.css",
+    "main.js": "/portfolio/static/js/main.abbde09d.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/heroImage.jpg": "/portfolio/static/media/heroImage.d4bc3fa82d3328a4e4fa.jpg",
     "static/media/portraitColor.jpg": "/portfolio/static/media/portraitColor.3a87893bc76fa4e81cda.jpg",
     "static/media/CV_Sandro_Seivane_PT_2024.pdf": "/portfolio/static/media/CV_Sandro_Seivane_PT_2024.0e1e118958f39efa2684.pdf",
     "index.html": "/portfolio/index.html",
-    "main.b6005f51.css.map": "/portfolio/static/css/main.b6005f51.css.map",
-    "main.04cc3372.js.map": "/portfolio/static/js/main.04cc3372.js.map",
+    "main.ff81dc15.css.map": "/portfolio/static/css/main.ff81dc15.css.map",
+    "main.abbde09d.js.map": "/portfolio/static/js/main.abbde09d.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6005f51.css",
-    "static/js/main.04cc3372.js"
+    "static/css/main.ff81dc15.css",
+    "static/js/main.abbde09d.js"
   ]
 }
