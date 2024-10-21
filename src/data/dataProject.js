@@ -6,6 +6,8 @@ import { MdTravelExplore } from 'react-icons/md';
 import { IoNewspaperOutline } from 'react-icons/io5';
 import { MdOutlineChat } from 'react-icons/md';
 import { MdOutlineShoppingCart } from 'react-icons/md';
+import { MdFavoriteBorder } from 'react-icons/md';
+
 
 let dataProjects = [
     {
@@ -91,6 +93,17 @@ let dataProjects = [
         link: 'https://seivanesandro.github.io/e-shop/',
         icon: (
             <MdOutlineShoppingCart
+                size={80}
+                className="icon-animation"
+            />
+        )
+    },
+    {
+        id: 9,
+        name: 'Movie Favorite APP',
+        link: 'https://seivanesandro.github.io/portfolio/',
+        icon: (
+            <MdFavoriteBorder
                 size={80}
                 className="icon-animation"
             />
