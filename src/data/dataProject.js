@@ -103,7 +103,7 @@ let dataProjects = [
     {
         id: 9,
         name: 'Movie Favorite APP',
-        link: 'https://seivanesandro.github.io/portfolio/',
+        link: 'https://seivanesandro.github.io/Movies_App/',
         icon: (
             <MdFavoriteBorder
                 size={80}
