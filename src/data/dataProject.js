@@ -8,6 +8,8 @@ import { MdOutlineChat } from 'react-icons/md';
 import { MdOutlineShoppingCart } from 'react-icons/md';
 import { MdFavoriteBorder } from 'react-icons/md';
 import { MdOutlineAutoAwesomeMotion } from 'react-icons/md';
+import { GiMeal } from 'react-icons/gi';
+
 
 
 
@@ -117,6 +119,17 @@ let dataProjects = [
         link: 'https://seivanesandro.github.io/meme_generator_app/',
         icon: (
             <MdOutlineAutoAwesomeMotion
+                size={80}
+                className="icon-animation"
+            />
+        )
+    },
+    {
+        id: 11,
+        name: 'Meal APP',
+        link: 'https://seivanesandro.github.io/meal_planner/',
+        icon: (
+            <GiMeal
                 size={80}
                 className="icon-animation"
             />
