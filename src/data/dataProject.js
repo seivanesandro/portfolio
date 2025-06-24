@@ -4,6 +4,7 @@ import { MdOutlineLocalMovies } from 'react-icons/md';
 import { PiBooks } from 'react-icons/pi';
 import { MdTravelExplore } from 'react-icons/md';
 import { IoNewspaperOutline } from 'react-icons/io5';
+import { IoPlanetSharp } from 'react-icons/io5';
 import { MdOutlineChat } from 'react-icons/md';
 import { MdOutlineShoppingCart } from 'react-icons/md';
 import { MdFavoriteBorder } from 'react-icons/md';
@@ -130,6 +131,17 @@ let dataProjects = [
         link: 'https://seivanesandro.github.io/meal_planner/',
         icon: (
             <GiMeal
+                size={80}
+                className="icon-animation"
+            />
+        )
+    },
+    {
+        id: 12,
+        name: 'Discover Nasa APP',
+        link: 'https://seivanesandro.github.io/discover_nasa/',
+        icon: (
+            <IoPlanetSharp
                 size={80}
                 className="icon-animation"
             />
