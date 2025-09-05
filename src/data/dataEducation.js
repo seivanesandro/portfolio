@@ -1,5 +1,15 @@
 let dataEducation = [
     {
+        id: 8,
+        title: 'Curso de Web developer - Master D',
+        local: 'Master D - Lisboa',
+        date: 'Novembro 12, 2024',
+        objectives:
+            'Uma experiência unica em que a prática inclui a criação de soluções completas e projectos funcionais, com foco em tecnologias modernas e com o acompanhamento de tutores especializados em programação e com o apoio de preparadores aptos para responder a duvidas e problemas do aluno.',
+        skills: 'HTML5, CSS3, bootstrap, JavaScript, React.js, styled-components, node.js, npm, PHP, Composer, MySQL, Workbench, Xampp, GitHub, API restfull , Postman.',    
+        stage: 'Ainda por realizar.'
+    },
+    {
         id: 7,
         title: 'Meta - Front-End Developer',
         local: 'Coursera',
@@ -13,7 +23,7 @@ let dataEducation = [
         id: 6,
         title: 'Curso Programador de informatica',
         local: 'IEFP - Centro Profissional de Alcoitão',
-        date: 'jul 2021 - agost 2022',
+        date: 'julho 2021 - agosto 2022',
         objectives:
             'Algoritmia, Estrutura de Dados, Metodologias de Programação, c, c++, cSharp, ASP.NET, Mysql, Xampp, PHP, HTML & CSS, Metedologias Agile, Systemas de Analise, Metodologias de Desenvolvimento de Aplicações WEB, GitHub, Python, JAVA',
         skills: 'workBench, phpMyAdmin, virtualBox, IntelliJ ideia, Visual Studio, Paradigm, Draw.io, visual studio',
