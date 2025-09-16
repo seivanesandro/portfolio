@@ -141,7 +141,7 @@ let dataProjects = [
         name: 'Discover Nasa APP',
         link: 'https://seivanesandro.github.io/discover_nasa/',
         icon: (
-            <MdOutlineQuiz
+            <IoPlanetSharp
                 size={80}
                 className="icon-animation"
             />
@@ -152,7 +152,7 @@ let dataProjects = [
         name: 'Quiz APP',
         link: 'https://seivanesandro.github.io/quiz_app/',
         icon: (
-            <IoPlanetSharp
+            <MdOutlineQuiz
                 size={80}
                 className="icon-animation"
             />
