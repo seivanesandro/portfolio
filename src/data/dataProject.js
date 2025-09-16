@@ -10,7 +10,7 @@ import { MdOutlineShoppingCart } from 'react-icons/md';
 import { MdFavoriteBorder } from 'react-icons/md';
 import { MdOutlineAutoAwesomeMotion } from 'react-icons/md';
 import { GiMeal } from 'react-icons/gi';
-
+import { MdOutlineQuiz } from 'react-icons/md';
 
 
 
@@ -140,6 +140,17 @@ let dataProjects = [
         id: 12,
         name: 'Discover Nasa APP',
         link: 'https://seivanesandro.github.io/discover_nasa/',
+        icon: (
+            <MdOutlineQuiz
+                size={80}
+                className="icon-animation"
+            />
+        )
+    },
+    {
+        id: 13,
+        name: 'Quiz APP',
+        link: 'https://seivanesandro.github.io/quiz_app/',
         icon: (
             <IoPlanetSharp
                 size={80}
