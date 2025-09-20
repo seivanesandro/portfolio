@@ -388,24 +388,7 @@ h6 {
     }
 }
 
-/* Bootstrap Accordion Override para transparência */
-.accordion-item {
-    background-color: transparent !important;
-    border: none !important;
-}
-.accordion-button {
-    background-color: transparent !important;
-    border: none !important;
-    box-shadow: none !important;
-}
-.accordion-button:not(.collapsed) {
-    background-color: transparent !important;
-    color: inherit !important;
-    box-shadow: none !important;
-}
-.accordion-body {
-    background-color: transparent !important;
-}
+
 
 .container-accordion {
     width: 100% !important;
