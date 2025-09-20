@@ -10,7 +10,13 @@ body {
 
     font-style: normal;
 
-    /* font-family: -apple-system, BlinkMacSystemFont,
+    /*#section-education {
+    background: transparent;
+    display: block;
+    padding: 10rem 29% !important;
+    width: 98% !important;
+    max-width:98% !important;
+}amily: -apple-system, BlinkMacSystemFont,
         'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
         'Cantarell', 'Fira Sans', 'Droid Sans',
         'Helvetica Neue', sans-serif;
@@ -271,7 +277,7 @@ h6 {
     }
 
     #section-education {
-        padding: 10rem 4.6% !important;
+        padding: 10rem 8% !important;
     }
 
     #section-projects {
@@ -382,8 +388,33 @@ h6 {
     }
 }
 
+/* Bootstrap Accordion Override para transparência */
+.accordion-item {
+    background-color: transparent !important;
+    border: none !important;
+}
+.accordion-button {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.accordion-button:not(.collapsed) {
+    background-color: transparent !important;
+    color: inherit !important;
+    box-shadow: none !important;
+}
+.accordion-body {
+    background-color: transparent !important;
+}
+
 .container-accordion {
     width: 78rem !important;
+    max-width: 90vw !important;
+    box-sizing: border-box !important;
+    overflow-x: hidden !important;
+    margin: 0 auto !important;
+    padding: 0 1rem !important;
+    background: transparent !important;
 }
 
 .accordion-title {
@@ -430,22 +461,30 @@ h6 {
 
 @media only screen and (max-width: 1024px) {
     .container-accordion {
-        width: 58rem !important;
+        width: 50rem !important;
+        max-width: 85vw !important;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .container-accordion {
-        width: 43rem !important;
+        width: 45rem !important;
+        max-width: 85vw !important;
     }
     .accordion-local {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
+    }
+    .accordion-container-body-main {
+        padding: 0 1rem;
     }
 }
 
 @media only screen and (max-width: 430px) {
     .container-accordion {
-        width: 23rem !important;
+        width: 25rem !important;
+        max-width: 96vw !important;
+        margin: 0 auto !important;
+        padding: 0 0.5rem !important;
     }
     .accordion-container-body-header {
         flex-direction: column-reverse;
@@ -455,39 +494,79 @@ h6 {
     }
     .accordion-container-body-main {
         text-align: start;
+        padding: 0 0.5rem;
     }
     .accordion-title {
         text-shadow: none;
+        font-size: 1.1rem;
     }
 }
 
 @media only screen and (max-width: 425px) {
     .container-accordion {
-        width: 23rem !important;
+        width: 22rem !important;
+        max-width: 95vw !important;
+        margin: 0 auto !important;
+        padding: 0 0.5rem !important;
     }
     .accordion-container-body-header {
         flex-direction: column-reverse;
         align-items: flex-start;
         text-align: left;
         gap: 1rem;
+    }
+    .accordion-container-body-main {
+        padding: 0 0.5rem;
     }
     .accordion-title {
         text-shadow: none;
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 400px) {
     .container-accordion {
-        width: 19rem !important;
+        width: 22rem !important;
+        max-width: 94vw !important;
+        margin: 0 auto !important;
+        padding: 0 0.25rem !important;
     }
     .accordion-container-body-header {
         flex-direction: column-reverse;
         align-items: flex-start;
         text-align: left;
-        gap: 1rem;
+        gap: 0.5rem;
+        margin: 0.5rem 0.25rem;
+    }
+    .accordion-container-body-main {
+        padding: 0 0.25rem;
+        margin: 0.5rem 0.25rem 1rem 0.25rem;
     }
     .accordion-title {
         text-shadow: none;
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .container-accordion {
+        width: 18rem !important;
+        max-width: 90vw !important;
+        margin: 0 auto !important;
+        padding: 0 0.25rem !important;
+    }
+    .accordion-container-body-header {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        text-align: left;
+        gap: 0.5rem;
+    }
+    .accordion-container-body-main {
+        padding: 0 0.25rem;
+        margin: 1rem 0.25rem 2rem 0.25rem;
+    }
+    .accordion-title {
+        text-shadow: none;
+        font-size: 1rem;
     }
 }
 

@@ -1,7 +1,7 @@
 let dataEducation = [
     {
         id: 8,
-        title: 'Curso de Web developer - Master D',
+        title: 'Web developer - MasterD',
         local: 'Master D - Lisboa',
         date: 'Novembro 12, 2024',
         objectives:
