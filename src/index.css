@@ -396,7 +396,6 @@ h6 {
     box-sizing: border-box !important;
     overflow-x: hidden !important;
     margin: 0 auto !important;
-    padding: 0 1rem !important;
     background: transparent !important;
 }
 
@@ -467,7 +466,6 @@ h6 {
         width: 100% !important;
         max-width: 95vw !important;
         margin: 0 auto !important;
-        padding: 0 0.5rem !important;
     }
     .accordion-container-body-header {
         flex-direction: column-reverse;
@@ -490,7 +488,6 @@ h6 {
         width: 100% !important;
         max-width: 95vw !important;
         margin: 0 auto !important;
-        padding: 0 0.5rem !important;
     }
     .accordion-container-body-header {
         flex-direction: column-reverse;
@@ -511,7 +508,6 @@ h6 {
         width: 100% !important;
         max-width: 95vw !important;
         margin: 0 auto !important;
-        padding: 0 0.25rem !important;
     }
     .accordion-container-body-header {
         flex-direction: column-reverse;
@@ -536,7 +532,6 @@ h6 {
         width: 100% !important;
         max-width: 93vw !important;
         margin: 0 auto !important;
-        padding: 0 0.5rem !important;
     }
     .accordion-container-body-header {
         flex-direction: column-reverse;
@@ -564,7 +559,6 @@ h6 {
         width: 100% !important;
         max-width: 95vw !important;
         margin: 0 auto !important;
-        padding: 0 0.25rem !important;
     }
     .accordion-container-body-header {
         flex-direction: column-reverse;
@@ -587,7 +581,6 @@ h6 {
         width: 100% !important;
         max-width: 95vw !important;
         margin: 0 auto !important;
-        padding: 0 0.25rem !important;
     }
     .accordion-container-body-header {
         flex-direction: column-reverse;
@@ -619,17 +612,20 @@ h6 {
         }
 }
 
-@media only screen and (max-width: 425px) {.container-card-style {
+@media only screen and (max-width: 425px) {
+    .container-card-style {
         width: 16rem;
 
     }}
 
-@media only screen and (max-width: 375px) {.container-card-style {
+@media only screen and (max-width: 375px) {
+    .container-card-style {
         width: 16rem;
 
     }}
 
-@media only screen and (max-width: 320px) {.container-card-style {
+@media only screen and (max-width: 320px) {
+    .container-card-style {
         width: 16rem;
 
     }}
