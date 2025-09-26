@@ -8,7 +8,7 @@ import { BsGithub } from 'react-icons/bs';
 import { SiGmail } from 'react-icons/si';
 import { RiProfileLine } from 'react-icons/ri';
 
-import doc from '../../docs/CV_Sandro_Seivane_PT_2025.pdf';
+import doc from '../../docs/Sandro_Seivane_-_Frontend_Developer_PT.pdf';
 
 import styled, {
     keyframes

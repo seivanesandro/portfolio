@@ -153,7 +153,7 @@ const Hero = props => {
                             dedicação,
                             Criatividade e com
                             muita Vontade de
-                            "partir paredes!"
+                            "partir paredes com a cabeça!"
                         </HeroTextStyled>
 
                         <HeroBtnStyled
