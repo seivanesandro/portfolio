@@ -1,5 +1,5 @@
 import { RiTodoLine } from 'react-icons/ri';
-import { FaCodepen } from 'react-icons/fa';
+import { FaCodepen, FaYoutubeSquare } from 'react-icons/fa';
 import { MdOutlineLocalMovies } from 'react-icons/md';
 import { PiBooks } from 'react-icons/pi';
 import { MdTravelExplore } from 'react-icons/md';
@@ -153,6 +153,17 @@ let dataProjects = [
         link: 'https://seivanesandro.github.io/quiz_app/',
         icon: (
             <MdOutlineQuiz
+                size={80}
+                className="icon-animation"
+            />
+        )
+    },
+    {
+        id: 14,
+        name: 'TubeTide',
+        link: 'https://seivanesandro.github.io/tubetide_app/',
+        icon: (
+            <FaYoutubeSquare
                 size={80}
                 className="icon-animation"
             />
