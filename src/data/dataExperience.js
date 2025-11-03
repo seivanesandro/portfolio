@@ -13,7 +13,7 @@ let dataExperience = [
         title: 'Contisystems ',
         local: 'S.Domingos de Rana',
         description:
-            'Inserido numa equipa de pessoas sempre disponíveis para ajudar, fui responsável pela projecção e desenho de vários cartões para clientes e/ou colaboradores de empresas nacionais e multinacionais.',
+            'Inserido numa equipa de pessoas sempre disponíveis para ajudar, fui responsável pela produção de vários tipos cartões eletronicos para clientes nacionais/multinacionais.',
         date: '2018-2020 ( 3 anos )',
         icon: 'Work'
     },
