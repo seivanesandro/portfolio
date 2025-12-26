@@ -11,6 +11,9 @@ import { MdFavoriteBorder } from 'react-icons/md';
 import { MdOutlineAutoAwesomeMotion } from 'react-icons/md';
 import { GiMeal } from 'react-icons/gi';
 import { MdOutlineQuiz } from 'react-icons/md';
+import { FaTasks } from 'react-icons/fa';
+
+
 
 
 
@@ -164,6 +167,17 @@ let dataProjects = [
         link: 'https://seivanesandro.github.io/tubetide_app/',
         icon: (
             <FaYoutubeSquare
+                size={80}
+                className="icon-animation"
+            />
+        )
+    },
+    {
+        id: 15,
+        name: 'new toDo app with Next.js',
+        link: 'https://todo-fsd-pro.netlify.app/sign-in',
+        icon: (
+            <FaTasks
                 size={80}
                 className="icon-animation"
             />
