@@ -175,7 +175,7 @@ let dataProjects = [
     },
     {
         id: 15,
-        name: 'new toDo app with Next.js',
+        name: 'new toDo app - Next.js',
         link: 'https://todo-fsd-pro.netlify.app/sign-in',
         icon: (
             <FaTasks
@@ -186,7 +186,7 @@ let dataProjects = [
     },
     {
         id: 16,
-        name: 'Exercise Fitness aka Next.js',
+        name: 'Exercise Fitness - Next.js',
         link: 'https://exefit.netlify.app/',
         icon: (
             <MdFitnessCenter
