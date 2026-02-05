@@ -12,6 +12,7 @@ import { MdOutlineAutoAwesomeMotion } from 'react-icons/md';
 import { GiMeal } from 'react-icons/gi';
 import { MdOutlineQuiz } from 'react-icons/md';
 import { FaTasks } from 'react-icons/fa';
+import { MdFitnessCenter } from 'react-icons/md';
 
 
 
@@ -178,6 +179,17 @@ let dataProjects = [
         link: 'https://todo-fsd-pro.netlify.app/sign-in',
         icon: (
             <FaTasks
+                size={80}
+                className="icon-animation"
+            />
+        )
+    },
+    {
+        id: 16,
+        name: 'Exercise Fitness aka Next.js',
+        link: 'https://exefit.netlify.app/',
+        icon: (
+            <MdFitnessCenter
                 size={80}
                 className="icon-animation"
             />
