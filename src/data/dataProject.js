@@ -13,6 +13,7 @@ import { GiMeal } from 'react-icons/gi';
 import { MdOutlineQuiz } from 'react-icons/md';
 import { FaTasks } from 'react-icons/fa';
 import { MdFitnessCenter } from 'react-icons/md';
+import { IoCarSportOutline } from 'react-icons/io5';
 
 
 
@@ -190,6 +191,17 @@ let dataProjects = [
         link: 'https://exefit.netlify.app/',
         icon: (
             <MdFitnessCenter
+                size={80}
+                className="icon-animation"
+            />
+        )
+    },
+    {
+        id: 16,
+        name: 'Auto Vibe, standVirtual - Next.js',
+        link: 'https://vibesauto.netlify.app/',
+        icon: (
+            <IoCarSportOutline
                 size={80}
                 className="icon-animation"
             />
